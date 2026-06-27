@@ -47,6 +47,29 @@ Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
 <p><em>PDF-versio tulossa ladattavaksi.</em></p>
 </div>
 
+<div class="card">
+<strong>Kitka elämässäsi – Miten teet vastuksesta voimavaran</strong><br>
+<em>Toinen painos / PDF-versio 2025</em>
+
+<p>
+Kirja käsittelee kitkaa näkymättömänä vastuksena, joka saa elämän tuntumaan raskaammalta kuin sen pitäisi. Kitka ei tarkoita vain yksittäistä vaikeaa tunnetta tai heikkoa motivaatiota. Se on merkki siitä, että jokin järjestelmässä kuluttaa enemmän kuin antaa takaisin: epäselvä tavoite, huonosti rakennettu ympäristö, jatkuva keskeytys, väärä rytmi, liiallinen velvoite, päätöksen lykkääntyminen tai liian suuri kuorma käytettävissä oleviin resursseihin nähden.
+</p>
+
+<p>
+Teoksen ydinajatus on, että kaikkea kitkaa ei pidä poistaa. Vähäinen kitka voi suojata virheiltä ja ohjata parempiin valintoihin. Liiallinen kitka taas pysäyttää, kuluttaa ja kaventaa vaihtoehtoja. Siksi kysymys ei ole pelkästä helpottamisesta, vaan annostelusta: missä kohtaa vastus kehittää, missä kohtaa se kuluttaa ja missä kohtaa se estää toiminnan kokonaan.
+</p>
+
+<p>
+Kirja antaa mallin kitkan tunnistamiseen ja hallintaan. Se tarkastelee fyysisiä, henkisiä, sosiaalisia, rakenteellisia ja taloudellisia resursseja sekä niitä pieniä energiavuotoja, jotka jäävät helposti arjen taustakohinaksi. Tavoitteena ei ole tehdä elämästä kitkatonta, vaan erottaa hyödyllinen vastus turhasta kulumisesta ja vapauttaa kapasiteettia niihin asioihin, joilla on merkitystä.
+</p>
+
+<p>
+Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
+</p>
+
+<p><em>PDF-versio tulossa ladattavaksi.</em></p>
+</div>
+
 ## Työn alla
 
 <div class="card">

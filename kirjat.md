@@ -116,6 +116,98 @@ Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
 <p><em>PDF-versio tulossa ladattavaksi.</em></p>
 </div>
 
+<div class="card">
+<strong>Ei pelkkää rakkautta – Opas miehelle, joka haluaa toimivan suhteen</strong><br>
+<em>PDF-versio 2025</em>
+
+<p>
+Kirja käsittelee parisuhdetta järjestelmänä, jossa pelkkä rakkaus ei aina riitä pitämään yhteyttä elossa. Sen lähtökohta on miehen kokemus tilanteesta, jossa jokin on lakannut virtaamasta: läheisyys, keskustelu, huumori, kosketus tai tunne siitä, että toinen todella näkee. Ongelma ei välttämättä ole yhdessä ihmisessä, vaan hitaasti epätasapainoon ajautuneessa suhteessa.
+</p>
+
+<p>
+Teos tarkastelee suhdetta rakenteiden, palautteen, vastuun, turvallisuuden ja vuorovaikutuksen kautta. Parisuhde ei yleensä hajoa yhdestä suuresta virheestä, vaan pienistä toistuvista katkoksista, joihin ei ajoissa reagoida. Ensin katoaa pieni ele, sitten yhteinen kieli, lopulta kyky tulkita toisen tarpeita oikein.
+</p>
+
+<p>
+Kirjan tarkoitus ei ole syyllistää miestä tai kumppania, vaan antaa malli, jolla suhdetta voi tarkastella korjattavana järjestelmänä. Se kysyy, mitä pitää palauttaa, mitä pitää lopettaa, mitä pitää sanoa ääneen ja missä kohtaa rakkauden tunne tarvitsee tuekseen toimivia rakenteita.
+</p>
+
+<p>
+Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
+</p>
+
+<p><em>PDF-versio tulossa ladattavaksi.</em></p>
+</div>
+
+<div class="card">
+<strong>Himon vallassa – Addiktiivisten järjestelmien tunnistaminen ja purkaminen</strong><br>
+<em>RC9 / PDF-versio 2025</em>
+
+<p>
+Kirja käsittelee addiktiota järjestelmänä, ei moraalisena epäonnistumisena tai yksinkertaisena tahdonvoiman puutteena. Himo syntyy, vahvistuu ja pysyy yllä, koska se tuottaa hetkellisen helpotuksen, lohdun, jännityksen, kontrollin tunteen tai pakotien epämiellyttävistä ajatuksista. Juuri siksi addiktio on niin sitkeä: se ei pelkästään tuhoa, vaan myös palvelee jotain järjestelmän sisäistä tarvetta.
+</p>
+
+<p>
+Teoksen ydin on addiktiivisen kierteen mallintaminen. Mitä addiktio tarvitsee ylläpysyäkseen? Missä kohtaa palkkio vahvistaa himoa? Miten ympäristö, stressi, häpeä, yksinäisyys, tylsyys ja impulssi muodostavat palautesilmukan? Kun kierre nähdään järjestelmänä, sitä voidaan purkaa kohdista, joihin pelkkä käsky "lopeta" ei ulotu.
+</p>
+
+<p>
+Kirja ei moralisoi eikä romantisoi himoa. Se etsii konkreettisia purkupisteitä: laukaisevien tilanteiden tunnistamista, palkkion uudelleenohjausta, ympäristön muuttamista, häpeän vähentämistä ja toipumista tukevien rakenteiden rakentamista. Tavoitteena on siirtää addiktio pimeästä automaatiosta näkyväksi prosessiksi, johon voi tehdä korjausliikkeitä.
+</p>
+
+<p>
+Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
+</p>
+
+<p><em>PDF-versio tulossa ladattavaksi.</em></p>
+</div>
+
+<div class="card">
+<strong>Elämän tarkoitus – Merkityksellisen elämän järjestelmä</strong><br>
+<em>PDF-versio 2025</em>
+
+<p>
+Kirja käsittelee arvoja ja tarkoitusta loogisena järjestelmänä. Sen perusväite on, että merkitys ei ole vain abstrakti tunne, jota joko löytyy tai ei löydy. Sitä voidaan tarkastella rakenteena: valintoina, arvoina, ankkureina, palautteena ja suunnan säilyttämisenä maailmassa, jossa vaihtoehtoja ja informaatiota on liikaa.
+</p>
+
+<p>
+Teos lähtee siitä, että loputtomien mahdollisuuksien aikakausi lupaa vapautta, mutta voi käytännössä tuottaa lamaannusta, levottomuutta ja tyytymättömyyttä. Ilman selkeää ankkuria ihminen ajautuu helposti virran mukana, vaikka ulkoisesti kaikki näyttäisi olevan kunnossa. Tarkoitus ei silloin ole pelkkä suuri elämänfilosofinen kysymys, vaan käytännöllinen ohjausjärjestelmä.
+</p>
+
+<p>
+Kirja antaa mallin siihen, miten ihminen voi tunnistaa omat arvonsa, erottaa kestävän merkityksen hetkellisestä halusta ja rakentaa elämäänsä päätöksenteon rungon. Tavoitteena ei ole löytää yhtä lopullista vastausta, vaan järjestelmä, joka auttaa suuntaamaan energiaa, aikaa ja huomiota asioihin, jotka kestävät myös arjen paineessa.
+</p>
+
+<p>
+Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
+</p>
+
+<p><em>PDF-versio tulossa ladattavaksi.</em></p>
+</div>
+
+<div class="card">
+<strong>AFRS – Järjestelmä luovaan työhön</strong><br>
+<em>PDF-versio 2025</em>
+
+<p>
+Kirja käsittelee luovaa työtä järjestelmänä, jossa ideat, energia, palaute, muokkaus ja valmiiksi saattaminen pitää saada toimimaan yhdessä. Se ei lähesty luovuutta pelkkänä inspiraationa tai yksittäisenä tekniikkana, vaan toimintakykynä, jota voidaan rakentaa, huoltaa ja korjata.
+</p>
+
+<p>
+Teoksen ytimessä on AFRS, Adaptive Fit & Recycle System. Malli auttaa tunnistamaan, miksi luova työ jumiutuu: idea ei sovi tekijän nykyisiin resursseihin, palaute jää hyödyntämättä, keskeneräisyys muuttuu taakaksi tai vanha materiaali jää käyttämättä. Luova työ ei silloin tarvitse lisää painetta, vaan paremman kierron.
+</p>
+
+<p>
+Kirja toimii myös omana case studynaan. Sen syntyprosessi näyttää, miten luovan työn esteitä voidaan purkaa käytännössä: miten raakaa materiaalia sovitetaan, kierrätetään, korjataan, rajataan ja muutetaan valmiiksi tuotokseksi. Tavoitteena on tehdä luovuudesta vähemmän mystinen ja enemmän hallittava järjestelmä.
+</p>
+
+<p>
+Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
+</p>
+
+<p><em>PDF-versio tulossa ladattavaksi.</em></p>
+</div>
+
 ## Työn alla
 
 <div class="card">

@@ -108,6 +108,48 @@ h3 { font-size: 1.2rem; }
   margin: 18px 0;
 }
 
+.archive-toggle > input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.archive-toggle-buttons {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0;
+  border: 1px solid var(--line);
+  margin: 12px 0 20px;
+  background: var(--card);
+}
+
+.archive-toggle-buttons label {
+  display: inline-block;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-right: 1px solid var(--line);
+  font-size: 0.95rem;
+}
+
+.archive-toggle-buttons label:last-child {
+  border-right: 0;
+}
+
+.archive-view {
+  display: none;
+}
+
+#archive-topic:checked ~ .archive-toggle-buttons label[for="archive-topic"],
+#archive-time:checked ~ .archive-toggle-buttons label[for="archive-time"] {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+#archive-topic:checked ~ .archive-view-topic,
+#archive-time:checked ~ .archive-view-time {
+  display: block;
+}
+
 blockquote {
   border-left: 3px solid var(--line);
   margin-left: 0;

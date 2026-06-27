@@ -1,10 +1,11 @@
 :root {
-  --bg: #f7f4ee;
-  --text: #171717;
-  --muted: #66645f;
-  --line: #d8d2c8;
-  --link: #111111;
-  --card: #fffdf8;
+  --bg: #e9e7e2;
+  --text: #2b2b2b;
+  --muted: #6f6d68;
+  --line: #c7c3bb;
+  --link: #3a3a3a;
+  --card: #f1efea;
+  --code-bg: #dedbd4;
   --max: 760px;
 }
 
@@ -35,7 +36,7 @@ body {
   display: inline-block;
   margin-bottom: 12px;
   color: var(--text);
-  font-weight: 700;
+  font-weight: 650;
   font-size: 22px;
   text-decoration: none;
 }
@@ -50,13 +51,15 @@ body {
 .site-nav a,
 a {
   color: var(--link);
-  text-underline-offset: 3px;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
 }
 
 h1, h2, h3 {
-  line-height: 1.2;
+  line-height: 1.22;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
+  font-weight: 650;
 }
 
 h1 { font-size: clamp(2rem, 6vw, 3.2rem); }
@@ -93,7 +96,7 @@ h3 { font-size: 1.2rem; }
 }
 
 blockquote {
-  border-left: 4px solid var(--line);
+  border-left: 3px solid var(--line);
   margin-left: 0;
   padding-left: 16px;
   color: var(--muted);
@@ -106,7 +109,7 @@ code, pre {
 pre {
   overflow-x: auto;
   padding: 16px;
-  background: #eee8dc;
+  background: var(--code-bg);
 }
 
 .site-footer {
@@ -117,13 +120,12 @@ pre {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #111111;
-    --text: #f0eee8;
-    --muted: #aaa49a;
-    --line: #33302a;
-    --link: #f0eee8;
-    --card: #181818;
+    --bg: #242424;
+    --text: #dedbd4;
+    --muted: #aaa59d;
+    --line: #4a4742;
+    --link: #e3e0d8;
+    --card: #2f2f2f;
+    --code-bg: #303030;
   }
-
-  pre { background: #1f1f1f; }
 }

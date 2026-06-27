@@ -1,0 +1,23 @@
+title: "Ihmisen käyttöjärjestelmä"
+description: "Henkilökohtainen blogi tekoälystä, systeemiajattelusta, resilienssistä, kirjoittamisesta ja arjen käyttöjärjestelmistä."
+url: "https://kataguru.github.io"
+baseurl: "/blogi"
+lang: "fi"
+timezone: "Europe/Helsinki"
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

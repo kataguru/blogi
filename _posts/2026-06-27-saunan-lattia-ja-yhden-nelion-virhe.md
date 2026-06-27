@@ -56,3 +56,27 @@ Virhe ei häviä sillä, että sen nimeää harmilliseksi. Se häviää vain kor
 Yksi neliö ei kuulosta paljolta.
 
 Mutta joskus juuri se yksi neliö kertoo, missä kohtaa kiire, kuorma ja todellisuus eivät enää kohdanneet.
+
+## Miksi hirsisauna on hyvä esimerkki?
+
+Palataan vielä hirsisaunaan.
+
+Miksi tämä on hyvä esimerkki? Siksi, että rakenne itsessään tekee suuren osan työstä.
+
+Hirsi ei vaadi nyt käytännössä huoltoa lainkaan. Ei maalauksia, ei raaputuksia, ei jatkuvaa kemikaalikerrosten uusimista. Rautavihtrilli harmaannuttaa pinnan, mutta ei rakenna huolto-orjuutta. Pinta saa vanheta ilman, että sitä pitää jatkuvasti pelastaa.
+
+Kivijalka on korkea ja tuulettuva. Rakenne ei makaa kosteutta vasten, eikä sen tarvitse taistella maasta nousevaa kosteutta vastaan. Kun ilma kiertää, rakenne pysyy kuivempana. Kun rakenne pysyy kuivempana, se ei lahoa samalla tavalla.
+
+Räystäät ovat pitkät. Ne suojaavat hirttä suoralta kastumiselta. Tämä on yksinkertainen asia, mutta juuri siksi tärkeä. Hyvä rakenne ei tarvitse jatkuvaa jälkihoitoa, jos se on alun perin suojattu oikein.
+
+Käytännössä sauna on ekologinen, vähähuoltoinen ja pitkäikäinen.
+
+Se ei ole ekologinen siksi, että siihen olisi liimattu vihreä selitys päälle. Se on ekologinen siksi, että sen käyttöikä on pitkä, huoltotarve pieni ja materiaalit ymmärrettäviä. Kestävyys ei synny iskulauseesta. Se syntyy rakenteesta, joka ei vaadi jatkuvaa korjaamista pysyäkseen hengissä.
+
+Tässä mielessä hirsisauna on vastakohta oireiden hoidolle.
+
+Kun perusrakenne on oikein, myöhemmän elämän ei tarvitse olla jatkuvaa paikkaamista. Sama pätee taloon, terveyteen, työhön ja arkeen. Jos rakenne suojaa itseään, ihminen vapautuu ylläpitämään elämää eikä pelkkää vikaantumista.
+
+Uskon, että seuraava sukupolvi saa nauttia tästä saunasta myös.
+
+Se on hyvä mittari. Ei se, näyttääkö rakennus uudelta ensimmäisenä kesänä. Vaan se, onko se edelleen käytössä silloin, kun ensimmäiset tekijät ovat jo väistyneet.

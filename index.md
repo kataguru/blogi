@@ -9,6 +9,8 @@ Mitä oikeastaan on ihmisen käyttöjärjestelmä?
 
 Se ei ole persoonallisuusteoria eikä tavallinen itseapumetafora. Se on tapa katsoa ihmistä toimivana järjestelmänä: kehollisena, kognitiivisena, sosiaalisena ja ympäristöön kytkeytyvänä kokonaisuutena, jolla on resurssit, sensorit, rajapinnat, suojausmekanismit, palautesilmukat ja käyttötilat.
 
+Tämän sivuston lähtökohta on oma elämä. Kaikki havainnot syntyvät siitä, mitä olen kokenut, tehnyt, korjannut, rikkonut, mitannut, epäillyt ja tulkinnut. Ne eivät ole yritys laatia yleispätevää ihmisteoriaa. Ne ovat oman elämän analyysistä rakennettuja malleja, joita voi verrata omaan todellisuuteen.
+
 Tietokoneessa käyttöjärjestelmä ei ole ohjelma, jolla tehdään yksi tehtävä. Se on kerros, joka jakaa resurssit, käsittelee keskeytykset, ajaa taustaprosessit, rajaa oikeudet ja palautuu virheistä. Ihmisessä vastaava kerros näkyy energian säätelynä, kehon signaaleina, mielihyvän kalibrointina, ajattelun lukkoina, sosiaalisina palomuureina ja kykynä palauttaa suunta.
 
 Siksi ihmisen käyttöjärjestelmä ei kysy vain, miltä jokin tuntuu. Se kysyy: mikä osa järjestelmästä antaa tämän signaalin, mitä se suojaa, mitä se kuluttaa ja mikä muutos palauttaa toimintakyvyn?

@@ -208,6 +208,158 @@ Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
 <p><em>PDF-versio tulossa ladattavaksi.</em></p>
 </div>
 
+<div class="card">
+<strong>Kone, joka kestää – 2. painos</strong><br>
+<em>Toinen painos / PDF-versio 2025</em>
+
+<p>
+Kirja käsittelee toimintakykyä järjestelmänä, joka pitää rakentaa kestämään sekä arjen kuormitusta että yllättäviä stressitiloja. Ensimmäisen tason ratkaisut eivät aina riitä, jos ongelmana ei ole yksittäinen väsymys vaan rakenteellinen heikkous: energiavuoto, väärä ajoitus, katoava momentum, matalateho tai jumi, jossa tahto on olemassa mutta liike ei käynnisty.
+</p>
+
+<p>
+Teoksen toinen painos laajentaa perusajatuksen mallikirjaksi. Tarkoitus ei ole antaa vain irrallisia ohjeita, vaan pohjapiirros oman toimintakyvyn tunnistamiseen, ennakointiin ja korjaamiseen. Kun järjestelmän heikot kohdat tulevat näkyviin, niitä voidaan käsitellä protokollina eikä luonteen puutteina.
+</p>
+
+<p>
+Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
+</p>
+
+<p><em>PDF-versio tulossa ladattavaksi.</em></p>
+</div>
+
+<div class="card">
+<strong>Ilon koneisto</strong><br>
+<em>PDF-versio 2025</em>
+
+<p>
+Kirja käsittelee iloa ja tyytyväisyyttä järjestelmänä, ei pelkkänä sattumana tai ulkoisten olosuhteiden tuotteena. Sen lähtökohta on havainto, että jatkuva virikkeiden, nautinnon ja onnen jahtaaminen voi jättää ihmisen tyhjemmäksi kuin ennen. Ilon koneisto kysyy, mitä sisäisessä järjestelmässä tapahtuu, kun ilo ei enää synny luonnollisesti.
+</p>
+
+<p>
+Teos tarkastelee ilon tuotantojärjestelmää kehon, ravinnon, liikkeen, aivokemian, palautumisen ja merkityksen kautta. Tavoitteena ei ole tehdä elämästä jatkuvaa nautintoa, vaan kalibroida järjestelmä uudelleen niin, että ihminen tunnistaa aidon ilon, matalan tason tyytyväisyyden ja ulkoisen hyväksynnän tuottaman keinotekoisen palkinnon erot.
+</p>
+
+<p>
+Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
+</p>
+
+<p><em>PDF-versio tulossa ladattavaksi.</em></p>
+</div>
+
+<div class="card">
+<strong>Liber Obscura – Kiellettyjen psykostrategioiden kirja</strong><br>
+<em>PDF-versio 2025</em>
+
+<p>
+Kirja käsittelee mielen pimeitä kerroksia, tarttuvia ajatusrakenteita ja psykologisia strategioita järjestelmäkarttana. Se ei ole neutraali katsaus eikä manipulaation ihannointi, vaan yritys tehdä näkyväksi sellaisia vaikutusmekanismeja, jotka muuten jäävät piiloon ja alkavat ohjata ihmistä hänen huomaamattaan.
+</p>
+
+<p>
+Teoksen perusliike kulkee dekonstruktiosta refaktorointiin: ensin tunnistetaan mielen arkkitehtuuriin pesiytynyt rakenne, sitten puretaan sen logiikka ja lopulta rakennetaan toimivampi versio tilalle. Tavoitteena on siirtyä näkymättömien ohjelmien armoilta oman käyttöjärjestelmän tietoiseksi ylläpitäjäksi.
+</p>
+
+<p>
+Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
+</p>
+
+<p><em>PDF-versio tulossa ladattavaksi.</em></p>
+</div>
+
+<div class="card">
+<strong>Narsistin käyttöliittymä – Analyysi ja vastastrategiat</strong><br>
+<em>PDF-versio 2025</em>
+
+<p>
+Kirja käsittelee narsistista toimintalogiikkaa käyttöliittymänä, jossa tavalliset vuorovaikutuksen protokollat eivät toimi odotetusti. Looginen argumentti, tunneilmaisu, vastavuoroisuus tai sovittelun yritys voi palautua järjestelmästä takaisin syytöksenä, sumuverhona, devalvaationa tai suhteettomana raivona.
+</p>
+
+<p>
+Teoksen tarkoitus on antaa lukijalle analyyttinen malli tällaisten vuorovaikutustilanteiden tunnistamiseen ja hallintaan. Painopiste ei ole diagnoosien jakamisessa, vaan siinä, miten omaa järjestelmää suojataan, missä kohtaa raja pitää asettaa ja miksi narsistinen käyttöliittymä kuluttaa toisen ihmisen resursseja niin nopeasti.
+</p>
+
+<p>
+Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
+</p>
+
+<p><em>PDF-versio tulossa ladattavaksi.</em></p>
+</div>
+
+<div class="card">
+<strong>Toimintamalli Neurodiverseille – Mittaa, Optimoi, Menesty</strong><br>
+<em>PDF-versio 2025</em>
+
+<p>
+Kirja käsittelee neurodiversiteettiä toimintamallin näkökulmasta. Sen tarkoitus ei ole tarjota diagnooseja tai lokeroida ihmisiä, vaan auttaa tunnistamaan, miten erilaiset aivot, ympäristöt, tehtävät, työkalut ja oppimistavat sopivat yhteen tai törmäävät toisiinsa.
+</p>
+
+<p>
+Teoksen malli etenee mittaamisesta optimointiin. Ensin tunnistetaan oma toimintaprofiili: vahvuudet, haasteet, kuormittavat tilanteet ja sopivat olosuhteet. Sen jälkeen rakennetaan käytännön mukautuksia, strategioita ja järjestelmiä, joiden avulla neurodiversiteetti ei jää pelkäksi selitykseksi, vaan muuttuu hallittavaksi toimintaympäristöksi.
+</p>
+
+<p>
+Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
+</p>
+
+<p><em>PDF-versio tulossa ladattavaksi.</em></p>
+</div>
+
+<div class="card">
+<strong>Tunteiden logiikka – suhteiden säätöjärjestelmät</strong><br>
+<em>PDF-versio 2025</em>
+
+<p>
+Kirja käsittelee tunteita ja ihmissuhteita säätöjärjestelminä. Tunteet eivät ole vain hallitsemattomia purkauksia tai pehmeää vastapainoa järjelle, vaan signaaleja, palautetta ja säätöliikkeitä, joiden avulla ihminen yrittää suojata rajojaan, yhteyttään, arvoaan ja turvallisuuttaan.
+</p>
+
+<p>
+Teos purkaa suhteiden toimintaa järjestelmäajattelun kautta: mitä tapahtuu, kun palaute ei kulje, rajat vuotavat, tulkinnat vääristyvät tai toinen ihminen reagoi vanhaan malliin eikä nykyiseen tilanteeseen. Tavoitteena on tehdä tunnesäätelystä ja vuorovaikutuksesta vähemmän mystistä ja enemmän ymmärrettävää, testattavaa ja korjattavaa.
+</p>
+
+<p>
+Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
+</p>
+
+<p><em>PDF-versio tulossa ladattavaksi.</em></p>
+</div>
+
+<div class="card">
+<strong>Virta päälle – kun matalateho iskee</strong><br>
+<em>Ensimmäinen painos / PDF-versio 2025</em>
+
+<p>
+Kirja käsittelee matalatehoa eli tilaa, jossa ihminen ei ole varsinaisesti rikki, mutta järjestelmä ei tuota normaalia toimintakykyä. Suoritus laskee, aloittaminen vaikeutuu, ärtymys kasvaa, vetäytyminen lisääntyy ja yksinkertaisetkin asiat alkavat vaatia suhteettoman paljon energiaa.
+</p>
+
+<p>
+Teoksen ydin on reaktivaation malli. Matalatehoa ei korjata pelkällä käskyllä piristyä, vaan tunnistamalla kuormituksen lähteet, palauttamalla järjestelmään pieni liike, vähentämällä turhaa kitkaa ja rakentamalla ympäristö, joka auttaa käynnistymään myös heikompina päivinä. Kyse on virran palauttamisesta, ei sankarillisesta ylisuorittamisesta.
+</p>
+
+<p>
+Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
+</p>
+
+<p><em>PDF-versio tulossa ladattavaksi.</em></p>
+</div>
+
+<div class="card">
+<strong>Turning Point 14 & Flow – Käännekohta kehossa ja mielessä</strong><br>
+<em>Syvennetty toinen painos / käsikirjoitus 2025</em>
+
+<p>
+Kirja käsittelee 14 päivän tarkasti rajattua kehon ja aineenvaihdunnan korjausohjelmaa, jonka tavoitteena on kääntää suunta nopeasti ja mitattavasti. Se ei lähesty muutosta pelkkänä dieettinä, vaan fysiologisena resetointina: kehonkoostumuksen, aineenvaihdunnan, energian ja mielen selkeyden yhteisenä järjestelmänä.
+</p>
+
+<p>
+Syvennetty toinen painos laajentaa mallia flow-tilaan. Ajatus on, että kun keho ja aineenvaihdunta saadaan hetkeksi puhtaampaan tilaan, myös keskittyminen, palkitsevuus ja tekemiseen uppoutuminen voivat muuttua. Tavoitteena ei ole vain kevyempi keho, vaan toimintakykyisempi kokonaisuus.
+</p>
+
+<p>
+Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
+</p>
+
+<p><em>Lukumuoto tulossa.</em></p>
+</div>
+
 ## Työn alla
 
 <div class="card">

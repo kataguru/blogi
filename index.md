@@ -5,9 +5,15 @@ description: Henkilökohtainen blogi tekoälystä, systeemiajattelusta, resilien
 
 # Ihmisen käyttöjärjestelmä
 
-Tämä on henkilökohtainen blogi tekoälystä, lokaaleista malleista, systeemiajattelusta, resilienssistä, kirjoittamisesta ja arjen käyttöjärjestelmistä.
+Mitä oikeastaan on ihmisen käyttöjärjestelmä?
 
-Tarkoitus ei ole tuottaa kohinaa, vaan julkaista havaintoja, malleja ja käytännöllisiä periaatteita.
+Se ei ole persoonallisuusteoria eikä tavallinen itseapumetafora. Se on tapa katsoa ihmistä toimivana järjestelmänä: kehollisena, kognitiivisena, sosiaalisena ja ympäristöön kytkeytyvänä kokonaisuutena, jolla on resurssit, sensorit, rajapinnat, suojausmekanismit, palautesilmukat ja käyttötilat.
+
+Tietokoneessa käyttöjärjestelmä ei ole ohjelma, jolla tehdään yksi tehtävä. Se on kerros, joka jakaa resurssit, käsittelee keskeytykset, ajaa taustaprosessit, rajaa oikeudet ja palautuu virheistä. Ihmisessä vastaava kerros näkyy energian säätelynä, kehon signaaleina, mielihyvän kalibrointina, ajattelun lukkoina, sosiaalisina palomuureina ja kykynä palauttaa suunta.
+
+Siksi ihmisen käyttöjärjestelmä ei kysy vain, miltä jokin tuntuu. Se kysyy: mikä osa järjestelmästä antaa tämän signaalin, mitä se suojaa, mitä se kuluttaa ja mikä muutos palauttaa toimintakyvyn?
+
+Tämän blogin tehtävä on testata näitä malleja julkisesti: pieninä havaintoina, protokollina, korjausliikkeinä ja versioina. Järjestelmä ei valmistu yhdellä oivalluksella. Se kasvaa versioina, ei kaaoksena.
 
 ## Viimeisimmät kirjoitukset
 

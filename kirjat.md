@@ -70,6 +70,52 @@ Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
 <p><em>PDF-versio tulossa ladattavaksi.</em></p>
 </div>
 
+<div class="card">
+<strong>Elämän tase – Pääomat, velat ja kassavirta</strong><br>
+<em>Ensipainos / PDF-versio 2025</em>
+
+<p>
+Kirja tarkastelee elämää tilinpäätöksen kaltaisena kokonaisuutena. Ihmisellä ei ole vain rahaa, menoja ja tuloja, vaan myös fyysistä, henkistä, sosiaalista, ajallista, rakenteellista ja taloudellista pääomaa. Samalla hänellä on velkoja: keskeneräisiä asioita, huonoja sitoumuksia, kuluttavia tapoja, hoitamattomia ongelmia, väärään suuntaan ohjautuvaa aikaa ja järjestelmiä, jotka vievät enemmän kuin tuottavat.
+</p>
+
+<p>
+Teoksen ydin on taseajattelu. Elämää ei tarkastella yksittäisinä tunteina, tavoitteina tai kriiseinä, vaan kokonaisuutena, jossa jokainen valinta vaikuttaa pääomiin, velkoihin ja kassavirtaan. Hyvä päätös ei ole vain se, joka tuntuu hetkessä oikealta, vaan se, joka parantaa järjestelmän kantokykyä myös myöhemmin. Huono päätös taas voi näyttää pieneltä, mutta kasvattaa korkoa: kuormaa, kitkaa, velkaa ja tulevaa korjauspakkoa.
+</p>
+
+<p>
+Kirja antaa mallin oman elämän taloudettomalle kirjanpidolle: mitä kannattaa vahvistaa, mitä pitää lyhentää, mikä vuotaa jatkuvasti ja missä kohtaa kassavirta ei enää riitä ylläpitämään nykyistä elämäntapaa. Tarkoitus ei ole muuttaa elämää yritykseksi, vaan tehdä näkyväksi se, että myös ihmisen toimintakyvyllä on varallisuutta, velkaa, tuottoa, kulua ja riskiä.
+</p>
+
+<p>
+Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
+</p>
+
+<p><em>PDF-versio tulossa ladattavaksi.</em></p>
+</div>
+
+<div class="card">
+<strong>Ajan arkkitehti – Suunnittele elämä, jossa on tilaa olennaiselle</strong><br>
+<em>PDF-versio 2025</em>
+
+<p>
+Kirja käsittelee aikaa järjestelmänä, ei pelkkänä kalenterin täyttönä. Sen lähtökohta on kokemus, jossa ihminen voi olla tehokas, järjestelmällinen ja jatkuvasti liikkeessä, mutta silti menettää olennaisen: merkityksen, palautumisen, läsnäolon ja oman suunnan. Ongelma ei silloin ole välttämättä laiskuudessa tai tahdonvoiman puutteessa, vaan siinä, että oma aikajärjestelmä on rakennettu väärän oletuksen varaan.
+</p>
+
+<p>
+Teos haastaa ajatuksen ajasta ulkoisena resurssina, jota vain hallitaan minuuteilla, tehtävälistoilla ja sovelluksilla. Aika on myös fyysinen, biologinen, psykologinen, sosiaalinen ja eksistentiaalinen järjestelmä. Jos nämä tasot ovat ristiriidassa keskenään, mikään kalenteri ei korjaa ongelmaa. Päivä voi olla täynnä, vaikka elämässä ei olisi tilaa sille, mikä on tärkeää.
+</p>
+
+<p>
+Kirja antaa välineitä oman aikarakenteen suunnitteluun: mihin aika todella kuluu, mikä hajottaa kapasiteettia, missä syntyvät aikajumit ja milloin tehokkuus alkaa muuttua itseään syöväksi järjestelmäksi. Tavoitteena ei ole tehdä ihmisestä nopeampaa suorittajaa, vaan arkkitehti, joka rakentaa elämäänsä tilaa olennaiselle.
+</p>
+
+<p>
+Osa <strong>Ihmisen käyttöjärjestelmä</strong> -kokonaisuutta.
+</p>
+
+<p><em>PDF-versio tulossa ladattavaksi.</em></p>
+</div>
+
 ## Työn alla
 
 <div class="card">

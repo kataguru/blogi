@@ -73,6 +73,17 @@ h3 { font-size: 1.2rem; }
   font-size: 1.15rem;
 }
 
+.hero-image {
+  margin: 26px 0 30px;
+}
+
+.hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+}
+
 .post-list {
   list-style: none;
   padding: 0;

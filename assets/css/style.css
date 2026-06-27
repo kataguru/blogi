@@ -119,16 +119,3 @@ pre {
   color: var(--muted);
   font-size: 0.9rem;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #242424;
-    --text: #dedbd4;
-    --muted: #aaa59d;
-    --line: #4a4742;
-    --link: #e3e0d8;
-    --accent: #9bb6bd;
-    --card: #2f2f2f;
-    --code-bg: #303030;
-  }
-}

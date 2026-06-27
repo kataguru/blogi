@@ -20,3 +20,33 @@ Tässä kohtaa kysymys ei lopulta ole: onko tämä kallista?
 Kysymys on: mitä vaihtoehtoja sinulla oikeasti on?
 
 Jos koira on sinun vastuullasi, sen kipu ei ole neuvotteluasia. Raha tekee asiasta raskaan. Se ei tee siitä valinnaista.
+
+## Miksi Kaapon hampaat ovat näin huonossa kunnossa?
+
+Se on hyvä kysymys.
+
+Ensimmäinen epäily osuu tietenkin ihmiseen. Olemmeko olleet huonoja koiranomistajia? Olemmeko antaneet vääriä herkkuja, liian pehmeää ruokaa tai liian vähän hammashoitoa? Olemmeko jättäneet jonkin tekemättä silloin, kun olisi pitänyt toimia?
+
+Varmaan osittain syy on myös meissä. Täysin puhtaita selityksiä on harvoin.
+
+Mutta tämä ei silti selitä kaikkea.
+
+Olivia on myös mittelspitz. Hän on Kaapoa kaksi vuotta vanhempi, eikä hänellä ole samanlaisia hammasvaivoja. Sama talo, sama arki, sama ruokailun peruslogiikka, samat ihmiset. Silti lopputulos on eri.
+
+Siksi kysymys muuttuu.
+
+Kyse ei ole vain siitä, miten koiraa on hoidettu. Kyse on myös siitä, millaisen rakenteen se on saanut syntyessään.
+
+Kaapon kohdalla perintötekijät näyttävät olevan huonot. Ikenet vetäytyvät, ja kiille ei kestä normaalisti. Eläinlääkärin käyttämä termi oli muistaakseni kiillehypoplasia tai jokin siihen liittyvä kiilteen kehityshäiriö.
+
+Tämä ei poista vastuuta. Se tarkentaa sen.
+
+Jos järjestelmä on heikko jo lähtöasetuksiltaan, sitä ei voi hoitaa samalla tavalla kuin vahvaa järjestelmää. Se vaatii enemmän seurantaa, enemmän rahaa ja enemmän päätöksiä, joita ei tekisi, jos kaikki toimisi normaalisti.
+
+Kaapon hampaat eivät siis ole huonossa kunnossa vain siksi, että jotain olisi laiminlyöty. Ne ovat huonossa kunnossa siksi, että osa järjestelmästä on rakenteellisesti heikko.
+
+Se on epäreilua koiralle. Ja kallista ihmiselle.
+
+Mutta edelleen sama kysymys jää jäljelle:
+
+mitä vaihtoehtoja sinulla oikeasti on?

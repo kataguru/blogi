@@ -5,7 +5,7 @@ description: Henkilökohtainen blogi ihmisen käyttöjärjestelmästä, tekoäly
 
 # Ihmisen käyttöjärjestelmä
 
-Kaikki ei ollut rikki. Järjestelmä vain käytti väärää tilaa.
+Mikään ei ole rikki, ohjausjärjestelmän asetukset ovat vain säätämättä.
 
 Tämä sivusto on yritys kuvata, mitä tapahtuu, kun omaa elämää alkaa katsoa järjestelmänä: ei luonteen testinä, ei motivaation puutteena, ei sankaritarinana, vaan rakenteena, jossa keho, ympäristö, työ, huomio, palaute, kitka ja resurssit vaikuttavat toisiinsa.
 

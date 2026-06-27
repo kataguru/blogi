@@ -9,6 +9,10 @@ Kaikki ei ollut rikki. Järjestelmä vain käytti väärää tilaa.
 
 Tämä sivusto on yritys kuvata, mitä tapahtuu, kun omaa elämää alkaa katsoa järjestelmänä: ei luonteen testinä, ei motivaation puutteena, ei sankaritarinana, vaan rakenteena, jossa keho, ympäristö, työ, huomio, palaute, kitka ja resurssit vaikuttavat toisiinsa.
 
+<figure class="hero-image">
+  <img src="{{ '/assets/images/evijarvi-hero.png' | relative_url }}" alt="Evijärven rantamaisema iltavalossa">
+</figure>
+
 Ihmisen käyttöjärjestelmä ei ole persoonallisuusteoria eikä valmis oppi hyvästä elämästä. Se on omaan elämään perustuva analyysimalli. Havainnot syntyvät siitä, mitä olen kokenut, tehnyt, korjannut, rikkonut, mitannut, epäillyt ja tulkinnut.
 
 Siksi väitteet ovat rajattuja. En väitä, että sama malli toimii kaikille. Väitän, että näin järjestelmä näkyi omassa elämässäni. Jos tunnistat saman rakenteen omassasi, malli voi olla hyödyllinen.

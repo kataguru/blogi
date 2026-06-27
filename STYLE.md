@@ -110,6 +110,7 @@ Käytä:
 - teknisiä analogioita vain silloin, kun ne selkeyttävät
 - omaelämäkerrallista ainesta rajatusti
 - käsitteitä kuten resurssi, kitka, palaute, kalibrointi, rajapinta, kuorma ja toimintakyky
+- vierasperäisiä termejä vain tarpeeseen; kirjoita termi auki ensimmäisellä käyttökerralla
 
 Vältä:
 
@@ -120,6 +121,7 @@ Vältä:
 - yleistämistä ilman rajausta
 - liian pitkää teoreettista johdantoa
 - lukijan syyllistämistä
+- vieraskielisiä termejä, jos selkeä suomenkielinen vastine toimii paremmin
 
 ## Episteeminen rajaus
 
@@ -145,7 +147,8 @@ Ennen julkaisua tekstin pitää vastata näihin kysymyksiin:
 4. Onko tekstissä hyödyllinen malli tai korjausliike?
 5. Onko sävy empaattinen mutta rakenteellinen?
 6. Onko mukana koukku, joka sitoo mutta ei manipuloi?
-7. Onko teksti riittävän lyhyt suhteessa asiaan?
+7. Onko vierasperäiset termit kirjoitettu auki ensimmäisellä käyttökerralla?
+8. Onko teksti riittävän lyhyt suhteessa asiaan?
 
 ## Työnkulku
 

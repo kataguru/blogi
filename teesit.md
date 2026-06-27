@@ -81,7 +81,19 @@ Hyvä järjestelmä ei oleta parasta päivää. Se kestää myös heikon päivä
 
 Siksi uni, palautuminen, rajat ja huomion suojaaminen eivät ole hyvinvointikoristelua. Ne ovat järjestelmän ylläpitoa.
 
-### 7. Korjaus tapahtuu rakenteen kautta
+### 7. Allostaasin ja resilienssin suunnitelmallinen vahvistaminen
+
+Allostaasi tarkoittaa järjestelmän aktiivista säätöä muuttuvien vaatimusten mukaan. Allostaattinen kuorma tarkoittaa säätelyn hintaa: sitä, mitä jatkuva sopeutuminen kuluttaa.
+
+Ihminen ei vain palaudu kuormasta. Hän ennakoi, jakaa, sietää ja säätää kuormaa. Siksi hyvä järjestelmä ei tavoittele jatkuvaa tasapainoa, vaan parempaa säätelykykyä.
+
+Resilienssi ei synny pelkästä kovettamisesta. Se syntyy suunnitelmallisesta vaihtelun, palautumisen, turvamarginaalien ja hallitun vastuksen rakentamisesta.
+
+Kysymys ei ole vain: miten palaudun tästä?
+
+Kysymys on: miten rakennetaan järjestelmä, joka kestää seuraavan häiriön paremmin ilman kroonista ylikuormittumista?
+
+### 8. Korjaus tapahtuu rakenteen kautta
 
 Käyttäytyminen muuttuu pysyvästi vasta, kun rakenne muuttuu.
 
@@ -89,7 +101,7 @@ Rakenne voi olla rutiini, ympäristö, aikataulu, raja, mittari, palautesilmukka
 
 Jos yrität muuttua pelkällä päätöksellä, vanha järjestelmä palauttaa sinut usein vanhaan tilaan. Jos muutat rakennetta, uusi toiminta alkaa vaatia vähemmän ponnistelua.
 
-### 8. Kehitys on pienissä kokeiluissa etenevää
+### 9. Kehitys on pienissä kokeiluissa etenevää
 
 Iteratiivinen kehitys tarkoittaa etenemistä pienissä palautetta tuottavissa vaiheissa.
 
@@ -102,7 +114,7 @@ Tämä suojaa kahdelta virheeltä:
 
 Pieni toimiva muutos on arvokkaampi kuin suuri suunnitelma, jota ei jaksa ylläpitää.
 
-### 9. Kaikki ratkaisut ovat tilannesidonnaisia
+### 10. Kaikki ratkaisut ovat tilannesidonnaisia
 
 Yleisiä malleja voi käyttää, mutta ne pitää sovittaa tilanteeseen.
 
@@ -110,7 +122,7 @@ Konteksti tarkoittaa olosuhteita, joissa ratkaisu toimii tai ei toimi: elämänt
 
 Sama ohje voi olla yhdelle vapauttava ja toiselle kuormittava. Siksi hyvä malli ei pakota todellisuutta muotoonsa. Se taipuu todellisuuden mukaan.
 
-### 10. Kitka ei ole aina vihollinen
+### 11. Kitka ei ole aina vihollinen
 
 Kitka tarkoittaa vastusta, joka hidastaa tai vaikeuttaa toimintaa.
 
@@ -120,7 +132,7 @@ Kysymys ei ole: miten poistan kaiken vastuksen?
 
 Kysymys on: mikä kitka kehittää ja mikä kitka vain kuluttaa?
 
-### 11. Kohina syö suunnan
+### 12. Kohina syö suunnan
 
 Kohina tarkoittaa häiritsevää, epäolennaista tai väärään suuntaan ohjaavaa syötettä. Signaali–kohinasuhde tarkoittaa olennaisen ja häiritsevän suhdetta.
 
@@ -128,7 +140,7 @@ Kun kohina lisääntyy, ihminen alkaa helposti reagoida vääriin asioihin. Prio
 
 Siksi kohinan hallinta ei ole esteettinen valinta. Se on toimintakyvyn suojaamista.
 
-### 12. Kaikki osaaminen ja kokemus on potentiaalista resurssia
+### 13. Kaikki osaaminen ja kokemus on potentiaalista resurssia
 
 Mikään eletty ei ole automaattisesti hukkaa.
 
@@ -182,9 +194,9 @@ Joustavuus ei tarkoita luovuttamista. Se tarkoittaa, että tavoite säilyttää 
 
 ### Resilienssivara
 
-Resilienssi tarkoittaa kykyä kestää häiriöitä ja palautua niistä.
+Resilienssivara on allostaasin ja resilienssin suunnitelmallisen vahvistamisen käytännön työkalu.
 
-Resilienssivara tarkoittaa tarkoituksella jätettyä toleranssivyöhykettä: aikaa, energiaa, rahaa, huomiota tai vaihtoehtoinen polku, joka estää pienen virheen muuttumisen järjestelmäromahdukseksi.
+Se tarkoittaa tarkoituksella jätettyä toleranssivyöhykettä: aikaa, energiaa, rahaa, huomiota tai vaihtoehtoista polkua, joka estää pienen virheen muuttumisen järjestelmäromahdukseksi.
 
 ### Ympäristövihjeet
 
@@ -210,6 +222,7 @@ Kun artikkeli kirjoitetaan näiden teesien pohjalta, sen pitää vastata ainakin
 - mikä kuormittaa?
 - mikä palaute puuttuu?
 - mikä kitka on hyödyllistä ja mikä kuluttavaa?
+- mikä vahvistaa allostaattista säätelykykyä ja resilienssivaraa?
 - mikä pieni korjausliike voisi muuttaa tilannetta?
 - mikä osa tästä on oma havainto, mikä tulkinta ja mikä laajempi väite?
 
@@ -217,7 +230,7 @@ Kun artikkeli kirjoitetaan näiden teesien pohjalta, sen pitää vastata ainakin
 
 Ihmisen käyttöjärjestelmän perusajatus on yksinkertainen:
 
-Ihminen ei ole irrallinen päätöskone. Hän on järjestelmä, jossa keho, ympäristö, huomio, palaute, kitka, resurssit, muistot, suhteet ja rakenteet ohjaavat toisiaan.
+Ihminen ei ole irrallinen päätöskone. Hän on järjestelmä, jossa keho, ympäristö, huomio, palaute, kitka, resurssit, säätelykyky, muistot, suhteet ja rakenteet ohjaavat toisiaan.
 
 Kun ongelmaa tarkastellaan järjestelmänä, syyllisyys vähenee ja korjausmahdollisuudet lisääntyvät.
 

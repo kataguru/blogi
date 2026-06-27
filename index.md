@@ -44,6 +44,29 @@ Tavoite ei ole tehdä elämästä helppoa. Tavoite on tehdä siitä luettavampaa
 
 Kun ongelma muuttuu epämääräisestä tunteesta näkyväksi rakenteeksi, sitä voi alkaa korjata ilman tarpeetonta syyllisyyttä.
 
+## Mistä aloittaa?
+
+<div class="card">
+<strong>Ymmärrä perusmalli</strong><br>
+Aloita teeseistä, jos haluat nähdä sivuston rungon: mitä ihmisen käyttöjärjestelmä tarkoittaa, mitä resurssit ovat ja miksi kitka, palaute ja rakenne ratkaisevat enemmän kuin pelkkä tahdonvoima.
+
+<p><a href="{{ '/teesit/' | relative_url }}">Lue teesit</a></p>
+</div>
+
+<div class="card">
+<strong>Lue käytännön havainnot</strong><br>
+Arkistossa yksittäiset kokemukset muuttuvat malleiksi: sauna, koirat, työ, tekoäly, terveys ja arjen rakenteet. Aiheittainen jako auttaa löytämään tekstin ilman, että kaikki jää päivämäärävirtaan.
+
+<p><a href="{{ '/arkisto/' | relative_url }}">Selaa arkistoa</a></p>
+</div>
+
+<div class="card">
+<strong>Tutustu kirjoihin</strong><br>
+Kirjat kokoavat yksittäiset havainnot laajemmiksi kokonaisuuksiksi. Jokaiselle teokselle merkitään tila, sisältökuvaus ja lukutapa.
+
+<p><a href="{{ '/kirjat/' | relative_url }}">Katso kirjat</a></p>
+</div>
+
 ## Mistä täällä kirjoitetaan?
 
 <div class="card">
@@ -71,20 +94,12 @@ Resilienssi tarkoittaa kykyä kestää häiriöitä ja palautua niistä. Tääll
 Kirjat, luonnokset, teesit ja ajattelun työkalut. Kirjoittaminen ei ole vain ilmaisua, vaan tapa rakentaa järjestystä havaintojen ympärille.
 </div>
 
-## Hyvä aloituskohta
-
-Jos haluat ymmärtää sivuston rungon, aloita teeseistä:
-
-[Katso ihmisen käyttöjärjestelmän teesit]({{ '/teesit/' | relative_url }})
-
-Ne tiivistävät tämän blogin perusajatuksen: ihminen ei ole irrallinen päätöskone. Hän on järjestelmä, jossa keho, ympäristö, huomio, palaute, kitka, resurssit, muistot, suhteet ja rakenteet ohjaavat toisiaan.
-
 ## Viimeisimmät kirjoitukset
 
 <ul class="post-list">
 {% for post in site.posts limit:5 %}
   <li>
-    <p class="post-date">{{ post.date | date: "%d.%m.%Y" }}</p>
+    <p class="post-date">{{ post.date | date: "%d.%m.%Y" }}{% if post.categories contains 'ai' %} · Artikkeli{% elsif post.categories contains 'kirjoittaminen' %} · Kirjapäivitys{% else %} · Päivämerkintä{% endif %}</p>
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
     {% if post.description %}<p>{{ post.description }}</p>{% endif %}
   </li>

@@ -95,6 +95,17 @@ h3 { font-size: 1.2rem; }
   border: 1px solid var(--line);
 }
 
+.post-image {
+  margin: 18px 0 24px;
+}
+
+.post-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+}
+
 .post-list {
   list-style: none;
   padding: 0;

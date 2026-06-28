@@ -68,6 +68,20 @@ Rakenne voi olla esimerkiksi:
 4. Mitä pieni korjausliike muuttaa
 5. Miten lukija voi tunnistaa saman rakenteen omassa elämässään
 
+## Kuvitusperiaate
+
+Jokaiseen blogitekstiin pyritään lisäämään yksi aito kuva.
+
+Kuvan tehtävä ei ole koristella tekstiä, vaan antaa lukijalle tarttumapinta: paikka, esine, yksityiskohta, työvaihe, jälki, virhe, eläin, maisema tai hetki, johon tarina kiinnittyy.
+
+Ensisijainen kuva on oma valokuva. Se tekee tekstistä todemman ja sitoo järjestelmäajattelun arkeen.
+
+Perussääntö:
+
+**Yksi teksti, yksi aito kuva, yksi tarttumapinta.**
+
+AI-kuvia ei käytetä ensisijaisena kuvituksena. Niitä voidaan käyttää vain poikkeustapauksessa, jos aitoa kuvaa ei ole ja kuva on selvästi symbolinen eikä esitä tapahtumaa dokumentaarisena.
+
 ## Koukkujen käyttö
 
 Teksteissä saa ja pitää käyttää koukkuja, jotka sitovat lukijaa. Koukun tehtävä on avata tunnistettava jännite, ei myydä tunnetta.
@@ -147,8 +161,9 @@ Ennen julkaisua tekstin pitää vastata näihin kysymyksiin:
 4. Onko tekstissä hyödyllinen malli tai korjausliike?
 5. Onko sävy empaattinen mutta rakenteellinen?
 6. Onko mukana koukku, joka sitoo mutta ei manipuloi?
-7. Onko vierasperäiset termit kirjoitettu auki ensimmäisellä käyttökerralla?
-8. Onko teksti riittävän lyhyt suhteessa asiaan?
+7. Onko tekstissä yksi aito kuva tai tietoinen perustelu kuvan puuttumiselle?
+8. Onko vierasperäiset termit kirjoitettu auki ensimmäisellä käyttökerralla?
+9. Onko teksti riittävän lyhyt suhteessa asiaan?
 
 ## Työnkulku
 

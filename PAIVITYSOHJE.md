@@ -243,6 +243,38 @@ assets/images/evijarvi-hero.png
 
 Kuvien kanssa pitää varmistaa, että tiedosto on oikeasti repositoryssä eikä vain keskustelun tai työkalun paikallinen tiedosto.
 
+## Kävijälaskuri
+
+Sivustolla on GoatCounter-pohjainen kävijälaskurituki.
+
+Tärkeät tiedostot:
+
+- `_config.yml` — asetus `goatcounter_code`
+- `_layouts/default.html` — GoatCounter-seuranta ja footerissa näkyvä kokonaislaskuri
+- `assets/css/style.css` — laskurin ulkoasu
+
+Nykyinen oletuskoodi:
+
+```yaml
+goatcounter_code: "kataguru"
+```
+
+Jos GoatCounter-sivuston koodi vaihtuu, muuta vain `_config.yml`-tiedoston `goatcounter_code`-arvo.
+
+Jos arvoksi asetetaan tyhjä merkkijono, laskuri ja seurantascripti eivät näy sivustolla:
+
+```yaml
+goatcounter_code: ""
+```
+
+GoatCounterin hallinnasta pitää sallia laskurin näyttäminen sivustolla. Asetuksen nimi on:
+
+```text
+Allow adding visitor counts on your website
+```
+
+Laskuri näyttää footerissa koko sivuston katselukerrat, ei yksittäisen sivun lukemaa.
+
 ## Päivityksen tarkistuslista
 
 Ennen commitia tarkista:

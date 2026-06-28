@@ -105,6 +105,8 @@ title: "Otsikko"
 description: "Lyhyt kuvaus tekstistä."
 date: 2026-06-27 12:00:00 +0300
 categories: [arki, rakentaminen]
+image: /assets/images/kuvan-tiedostonimi.jpg
+image_alt: "Lyhyt kuvaus kuvasta"
 ---
 ```
 
@@ -113,6 +115,8 @@ Jos `date` puuttuu, Jekyll käyttää tiedostonimen päivämäärää. Ajankohta
 ```html
 <p class="meta">27.6.2026 · Evijärvi</p>
 ```
+
+Kuva määritellään `image`- ja `image_alt`-kentillä. Blogipohja sijoittaa kuvan automaattisesti otsikon alle.
 
 ## Blogitekstien tyypit
 
@@ -262,17 +266,14 @@ Perussääntö:
 
 **Yksi teksti, yksi aito kuva, yksi tarttumapinta.**
 
-Kuva sijoitetaan yleensä johdannon jälkeen ennen varsinaista analyysiä.
+Kuva lisätään blogitekstin front matteriin. Blogipohja sijoittaa kuvan automaattisesti otsikon alle.
 
-Kuva lisätään näin:
+Esimerkki:
 
-{% raw %}
-```html
-<figure class="post-image">
-  <img src="{{ '/assets/images/kuvan-tiedostonimi.png' | relative_url }}" alt="Lyhyt kuvaus kuvasta">
-</figure>
+```yaml
+image: /assets/images/saunan_lattia.jpg
+image_alt: "Saunan lattia"
 ```
-{% endraw %}
 
 Nykyisiä käytettäviä kuvia:
 

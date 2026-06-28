@@ -3,6 +3,8 @@ title: "Kaapon hammashoito ja vaihtoehtojen hinta"
 description: "Päivämerkintä Kaapon hammashoidosta, vastuusta ja siitä, miksi eläimen kipu ei ole neuvotteluasia."
 date: 2026-06-27 10:47:00 +0300
 categories: [arki, koirat, vastuu]
+image: /assets/images/olivia_ja_kaapo.png
+image_alt: "Olivia ja Kaapo"
 ---
 
 <p class="meta">27.6.2026 · Seinäjoki</p>

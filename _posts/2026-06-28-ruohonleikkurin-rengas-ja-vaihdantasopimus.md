@@ -1,7 +1,7 @@
 ---
 title: "Ruohonleikkurin rengas ja vaihdantasopimus"
 description: "Päivämerkintä Evijärven mökiltä, ajettavasta ruohonleikkurista ja siitä, miten halvempi valinta voi vaihtaa rahallisen hinnan ajaksi, huolloksi ja toistuvaksi kitkaksi."
-date: 2026-06-28 12:00:00 +0300
+date: 2026-06-28 11:00:00 +0300
 categories: [arki, Evijärvi, ylläpito]
 image: /assets/images/rengas.jpg
 image_alt: "Ajettavan ruohonleikkurin rengas"

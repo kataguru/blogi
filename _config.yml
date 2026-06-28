@@ -7,6 +7,11 @@ timezone: "Europe/Helsinki"
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
+# GoatCounter-kävijälaskuri.
+# Luo GoatCounteriin sivusto koodilla "kataguru" tai vaihda tähän oma sivustokoodi.
+# GoatCounterin asetuksista pitää sallia laskurin näyttäminen sivustolla.
+goatcounter_code: "kataguru"
+
 collections:
   posts:
     output: true

@@ -13,7 +13,7 @@ Tämä tiedosto kertoo, miten sivustoa täydennetään, kun työ jatkuu uudessa 
 Uudessa keskustelussa aloita näin:
 
 ```text
-Jatketaan GitHub Pages -sivustoa kataguru/blogi. Lue ensin README.md, STYLE.md ja PAIVITYSOHJE.md. Noudata sivuston nykyistä rakennetta. Älä julkaise ennen kuin sanon "Julkaise", ellei pyydetty muutos ole selvästi tekninen ylläpitomuutos.
+Jatketaan GitHub Pages -sivustoa kataguru/blogi. Lue ensin README.md, STYLE.md ja PAIVITYSOHJE.md. Noudata sivuston nykyistä rakennetta. Esilue aina muutoksen sisältö tai tiivis diff keskustelussa ja odota kuittausta ennen commitia, PR:ää, mergeä tai muuta sivustopäivitystä.
 ```
 
 ## Tärkeimmät tiedostot
@@ -60,21 +60,26 @@ Vältä:
 
 ## Julkaisu ja hyväksyntä
 
-Sisältöä ei julkaista suoraan ilman hyväksyntää.
+Kaikki sivuston muutokset esiluetaan ennen päivitystä.
+
+Tämä koskee sisältömuutoksia, teknisiä ylläpitomuutoksia, linkkejä, CSS:ää, asetuksia, kuvia, PR:iä, mergejä ja suoria committeja.
 
 Normaali työnkulku:
 
-1. Luonnos kirjoitetaan ensin keskusteluun.
-2. Tekstiä hienosäädetään tarvittaessa.
-3. Julkaisu tehdään vasta hyväksynnällä.
+1. Lue tarvittavat nykyiset tiedostot.
+2. Näytä käyttäjälle muutoksen sisältö tai tiivis diff keskustelussa.
+3. Odota käyttäjän kuittausta.
+4. Tee vasta sen jälkeen tiedostomuutos, commit, PR tai merge.
 
-Hyväksyntäkomento:
+Hyväksyviä kuittauksia ovat esimerkiksi:
 
 ```text
-Julkaise
+hyväksytty
+toteuta
+julkaise
 ```
 
-Tekniset ylläpitomuutokset, kuten kirjoitusvirheen korjaus, linkin lisääminen, kirjatiedon siirto rakenteisempaan muotoon tai selvästi pyydetty pieni muutos, voidaan tehdä suoraan, jos käyttäjä käskee tekemään muutoksen.
+Ilman kuittausta älä tee commitia, PR:ää, mergeä, tiedostopäivitystä tai muuta sivustoa.
 
 ## Uuden blogitekstin lisääminen
 
@@ -281,19 +286,21 @@ Laskuri näyttää footerissa koko sivuston katselukerrat, ei yksittäisen sivun
 
 Ennen commitia tarkista:
 
-1. Muuttuiko oikea tiedosto?
-2. Säilyikö nykyinen rakenne?
-3. Onko teksti linjassa `STYLE.md`-ohjeen kanssa?
-4. Onko uusi blogiteksti oikeassa kansiossa ja oikealla tiedostonimellä?
-5. Onko kirjalisäys tehty `_data/books.yml`-tiedostoon eikä käsin `kirjat.md`-sivulle?
-6. Onko YAML sisennyksiltään oikein?
-7. Onko linkkipolku suhteellinen ja Jekyll-yhteensopiva?
-8. Onko commit-viesti kuvaava?
+1. Onko muutos esiluettu käyttäjälle?
+2. Onko käyttäjä kuitannut muutoksen?
+3. Muuttuiko oikea tiedosto?
+4. Säilyikö nykyinen rakenne?
+5. Onko teksti linjassa `STYLE.md`-ohjeen kanssa?
+6. Onko uusi blogiteksti oikeassa kansiossa ja oikealla tiedostonimellä?
+7. Onko kirjalisäys tehty `_data/books.yml`-tiedostoon eikä käsin `kirjat.md`-sivulle?
+8. Onko YAML sisennyksiltään oikein?
+9. Onko linkkipolku suhteellinen ja Jekyll-yhteensopiva?
+10. Onko commit-viesti kuvaava?
 
 ## Käytännön aloitus uudessa keskustelussa
 
 Kopioi tämä uuteen keskusteluun:
 
 ```text
-Jatketaan sivustoa kataguru/blogi. Lue README.md, STYLE.md ja PAIVITYSOHJE.md. Päivitä sivustoa niiden mukaan. Kirjat ovat tiedostossa _data/books.yml. Uudet blogitekstit tulevat _posts-kansioon. Noudata ääntä: oma havainto → järjestelmämalli → lukijan peili. Älä julkaise uutta sisältöä ennen hyväksyntääni komennolla “Julkaise”.
+Jatketaan sivustoa kataguru/blogi. Lue README.md, STYLE.md ja PAIVITYSOHJE.md. Päivitä sivustoa niiden mukaan. Kirjat ovat tiedostossa _data/books.yml. Uudet blogitekstit tulevat _posts-kansioon. Noudata ääntä: oma havainto → järjestelmämalli → lukijan peili. Esilue aina muutoksen sisältö tai tiivis diff keskustelussa ja odota kuittausta ennen commitia, PR:ää, mergeä tai muuta sivustopäivitystä.
 ```

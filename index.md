@@ -1,13 +1,17 @@
 ---
 title: Etusivu
-description: Henkilökohtainen blogi ihmisen käyttöjärjestelmästä, tekoälystä, systeemiajattelusta, resilienssistä ja kirjoittamisesta.
+description: Valikoitu päiväkirjamainen blogi, jossa oman elämän tapahtumia analysoidaan Ihmisen käyttöjärjestelmän teesien kautta.
 ---
 
 # Ihmisen käyttöjärjestelmä
 
-Mikään ei ole rikki, ohjausjärjestelmän asetukset ovat vain säätämättä.
+Valikoitu päiväkirja elämästä, jota katsotaan järjestelmänä.
 
-Tämä sivusto on yritys kuvata, mitä tapahtuu, kun omaa elämää alkaa katsoa järjestelmänä: ei luonteen testinä, ei motivaation puutteena, ei sankaritarinana, vaan rakenteena, jossa keho, ympäristö, työ, huomio, palaute, kitka ja resurssit vaikuttavat toisiinsa.
+Tämä blogi kokoaa oman elämän tapahtumia, havaintoja ja arjen tilanteita: työtä, terveyttä, rakentamista, koiria, tekoälyä, kirjoittamista ja niitä pieniä häiriöitä, joista yleensä ei tehdä teoriaa.
+
+Tapahtumia ei kirjata siksi, että ne olisivat poikkeuksellisia. Ne kirjataan, koska niissä näkyy rakenne. Jokainen teksti yrittää katsoa yksittäistä kokemusta Ihmisen käyttöjärjestelmän teesien kautta: mitä järjestelmässä tapahtui, mikä kuormitti, mikä ohjasi, mikä vuoti ja mikä pieni korjausliike voisi palauttaa toimintakykyä.
+
+Mikään ei ole rikki. Ohjausjärjestelmän asetukset ovat vain säätämättä.
 
 <figure class="hero-image">
   <img src="{{ '/assets/images/evijarvi-hero.png' | relative_url }}" alt="Evijärven rantamaisema iltavalossa">

@@ -7,13 +7,11 @@ description: Valikoitu päiväkirjamainen blogi, jossa oman elämän tapahtumia 
 
 Valikoitu päiväkirja elämästä, jota katsotaan järjestelmänä.
 
-Mikään ei ole rikki. Ohjausjärjestelmän asetukset ovat vain säätämättä.
-
 <figure class="hero-image">
   <img src="{{ '/assets/images/evijarvi-hero.png' | relative_url }}" alt="Evijärven rantamaisema iltavalossa">
 </figure>
 
-Täällä yksittäiset arjen tapahtumat muuttuvat malleiksi: sauna, koirat, työ, terveys, tekoäly, kirjoittaminen ja ne pienet häiriöt, joissa oma järjestelmä paljastuu.
+Täällä arjen tapahtumista etsitään toistuvia kaavoja.
 
 ## Viimeisimmät kirjoitukset
 

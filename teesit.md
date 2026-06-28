@@ -6,19 +6,23 @@ permalink: /teesit/
 
 # Ihmisen käyttöjärjestelmän teesit
 
-Tämä teksti määrittää blogin ajattelullisen rungon.
+**Elämän käyttöohje ilman mystiikkaa.**
 
-Teesit eivät ole yleispäteviä lakeja ihmisestä. Ne ovat oman elämän analyysistä, havainnoista, mittauksista, virheistä, korjausliikkeistä ja jälkikäteisestä tulkinnasta syntyneitä periaatteita.
+Nämä teesit ovat sivuston taustamalli. Niitä ei tarvitse lukea ennen tarinoita, mutta ne selittävät, miksi arjen tapahtumista etsitään toistuvia kaavoja.
+
+Tarkoitus ei ole rakentaa uutta oppia, uskomusjärjestelmää tai yleistä totuutta ihmisestä. Tarkoitus on tehdä elämästä vähän luettavampaa: mikä kuormittaa, mikä ohjaa valintoja, missä voimavarat vuotavat ja millainen pieni korjausliike voi palauttaa toimintakykyä.
+
+Malli on maallinen. Se ei nojaa mystiikkaan, pelastuskertomukseen tai ajatukseen siitä, että kaikki ratkeaa oikealla asenteella. Lähtökohta on arkisempi: ihminen elää järjestelmien keskellä, ja moni ongelma näyttää henkilökohtaiselta vialta vasta siksi, että sen rakenne ei ole vielä näkyvissä.
+
+Teesit eivät ole lakeja ihmisestä. Ne ovat omasta elämästä, havainnoista, mittauksista, virheistä, korjausliikkeistä ja jälkikäteisestä tulkinnasta koottuja periaatteita.
 
 Niitä voi käyttää peilinä. Jos tunnistat saman rakenteen omassa elämässäsi, teesi voi auttaa näkemään, missä järjestelmä vuotaa, kuormittuu tai palautuu.
 
-## Metarajaus
+## Rajaus
+
+En väitä, että tämä toimii kaikille. Väitän, että näin järjestelmä näkyi omassa elämässäni. Jos tunnistat saman rakenteen omassasi, malli voi olla hyödyllinen.
 
 Ihmisen käyttöjärjestelmä ei väitä, että kaikki ongelmat voidaan ratkaista mallintamalla. Se väittää varovaisemmin: moni toistuva ongelma kannattaa ensin tutkia järjestelmänä ennen kuin se tulkitaan luonteenviaksi, heikkoudeksi tai moraaliseksi epäonnistumiseksi.
-
-Kirjoittajan positio:
-
-> En väitä, että tämä toimii kaikille. Väitän, että näin järjestelmä näkyi omassa elämässäni. Jos tunnistat saman rakenteen omassasi, malli voi olla hyödyllinen.
 
 ## Ydinteesit
 
@@ -26,11 +30,9 @@ Kirjoittajan positio:
 
 Kun sama vaikeus palaa toistuvasti, ensimmäinen kysymys ei ole: mikä minussa on vialla?
 
-Parempi kysymys on: mikä järjestelmän osa tuottaa saman lopputuloksen uudelleen?
+Uupumus, saamattomuus, ahdistus, ylensyönti, viivyttely tai jatkuva kuormitus voivat näyttää henkilökohtaisilta vioilta. Usein ne ovat kuitenkin merkkejä siitä, että palautteen, ympäristön, resurssien, rajojen tai kuorman rakenne toimii huonosti.
 
-Uupumus, saamattomuus, ahdistus, ylensyönti, viivyttely tai jatkuva kuormitus voivat näyttää henkilökohtaisilta vioilta. Usein ne ovat kuitenkin merkkejä palautteen, ympäristön, resurssien, rajojen tai kuorman virheellisestä rakenteesta.
-
-Tämä ei poista vastuuta. Se siirtää vastuun oikeaan paikkaan: syyllisyydestä järjestelmädiagnostiikkaan.
+Tämä ei poista vastuuta. Se siirtää vastuun oikeaan paikkaan: syyllisyydestä tilanteen tutkimiseen ja korjaamiseen.
 
 ### 2. Analyyttinen ja lempeä insinöörin ote
 

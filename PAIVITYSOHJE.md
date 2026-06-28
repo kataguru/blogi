@@ -160,9 +160,11 @@ _data/books.yml
 
 `kirjat.md` lukee kirjat Liquid-loopilla:
 
+{% raw %}
 ```liquid
 {% for book in site.data.books %}
 ```
+{% endraw %}
 
 Uusi kirja lisätään ensisijaisesti tiedostoon `_data/books.yml`.
 

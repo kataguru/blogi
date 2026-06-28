@@ -56,6 +56,17 @@ a {
   text-decoration-thickness: 1px;
 }
 
+.site-counter {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+#site-counter-count {
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
 h1, h2, h3 {
   color: var(--accent);
   line-height: 1.22;
@@ -171,13 +182,4 @@ pre {
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 0.9rem;
-}
-
-.visitor-counter {
-  margin-top: 6px;
-}
-
-#visitor-counter-count {
-  color: var(--accent);
-  font-variant-numeric: tabular-nums;
 }

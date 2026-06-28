@@ -3,6 +3,8 @@ title: "Saunan lattia ja yhden neliön virhe"
 description: "Päivämerkintä Evijärven saunasta, keskeneräisestä rakentamisesta ja siitä, miten kiire, väsymys ja ikä näkyvät lopulta rakenteessa."
 date: 2026-06-27 11:10:00 +0300
 categories: [arki, rakentaminen, Evijärvi]
+image: /assets/images/saunan_lattia.jpg
+image_alt: "Saunan lattia"
 ---
 
 <p class="meta">27.6.2026 · Evijärvi</p>

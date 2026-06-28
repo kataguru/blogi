@@ -80,6 +80,8 @@ Perussääntö:
 
 **Yksi teksti, yksi aito kuva, yksi tarttumapinta.**
 
+Kuva määritellään blogitekstin front matterissa `image`- ja `image_alt`-kentillä. Blogipohja sijoittaa kuvan automaattisesti otsikon alle.
+
 AI-kuvia ei käytetä ensisijaisena kuvituksena. Niitä voidaan käyttää vain poikkeustapauksessa, jos aitoa kuvaa ei ole ja kuva on selvästi symbolinen eikä esitä tapahtumaa dokumentaarisena.
 
 ## Koukkujen käyttö
@@ -162,8 +164,9 @@ Ennen julkaisua tekstin pitää vastata näihin kysymyksiin:
 5. Onko sävy empaattinen mutta rakenteellinen?
 6. Onko mukana koukku, joka sitoo mutta ei manipuloi?
 7. Onko tekstissä yksi aito kuva tai tietoinen perustelu kuvan puuttumiselle?
-8. Onko vierasperäiset termit kirjoitettu auki ensimmäisellä käyttökerralla?
-9. Onko teksti riittävän lyhyt suhteessa asiaan?
+8. Onko kuvan `image`- ja `image_alt`-kentät määritelty, jos kuva on käytössä?
+9. Onko vierasperäiset termit kirjoitettu auki ensimmäisellä käyttökerralla?
+10. Onko teksti riittävän lyhyt suhteessa asiaan?
 
 ## Työnkulku
 

@@ -20,6 +20,9 @@
       <a href="{{ '/projektit/' | relative_url }}">Projektit</a>
       <a href="{{ '/minusta/' | relative_url }}">Minusta</a>
     </nav>
+    {% if goatcounter_code != '' %}
+    <p class="site-counter" id="site-counter">Katselut yhteensä: <span id="site-counter-count">latautuu…</span></p>
+    {% endif %}
   </header>
 
   <main class="site-main">
@@ -28,20 +31,16 @@
 
   <footer class="site-footer">
     <p>© {{ site.time | date: '%Y' }} Jari Katajisto. Rakennettu GitHub Pagesilla.</p>
-    {% if goatcounter_code != '' %}
-    <p class="visitor-counter" id="visitor-counter" hidden>Katselut yhteensä: <span id="visitor-counter-count">…</span></p>
-    {% endif %}
   </footer>
 
   {% if goatcounter_code != '' %}
   <script data-goatcounter="https://{{ goatcounter_code }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
   <script>
     (function () {
-      var counter = document.getElementById('visitor-counter');
-      var count = document.getElementById('visitor-counter-count');
+      var count = document.getElementById('site-counter-count');
       var code = '{{ goatcounter_code }}';
 
-      if (!counter || !count || !code || !window.fetch) {
+      if (!count || !code || !window.fetch) {
         return;
       }
 
@@ -57,10 +56,9 @@
             return;
           }
           count.textContent = data.count;
-          counter.hidden = false;
         })
         .catch(function () {
-          counter.hidden = true;
+          count.textContent = 'ei vielä saatavilla';
         });
     }());
   </script>

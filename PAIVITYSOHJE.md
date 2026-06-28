@@ -250,6 +250,37 @@ assets/images/evijarvi-hero.png
 
 Kuvien kanssa pitää varmistaa, että tiedosto on oikeasti repositoryssä eikä vain keskustelun tai työkalun paikallinen tiedosto.
 
+## Kuvitusperiaate
+
+Jokaiseen blogitekstiin pyritään lisäämään yksi aito kuva.
+
+Kuvan tehtävä ei ole koristella tekstiä, vaan antaa lukijalle tarttumapinta: paikka, esine, yksityiskohta, työvaihe, jälki, virhe, eläin, maisema tai hetki, johon tarina kiinnittyy.
+
+Ensisijainen kuva on oma valokuva. Se tekee tekstistä todemman ja sitoo järjestelmäajattelun arkeen.
+
+Perussääntö:
+
+**Yksi teksti, yksi aito kuva, yksi tarttumapinta.**
+
+Kuva sijoitetaan yleensä johdannon jälkeen ennen varsinaista analyysiä.
+
+Kuva lisätään näin:
+
+{% raw %}
+```html
+<figure class="post-image">
+  <img src="{{ '/assets/images/kuvan-tiedostonimi.png' | relative_url }}" alt="Lyhyt kuvaus kuvasta">
+</figure>
+```
+{% endraw %}
+
+Nykyisiä käytettäviä kuvia:
+
+- `assets/images/olivia_ja_kaapo.png`
+- `assets/images/saunan_lattia.jpg`
+
+AI-kuvia ei käytetä ensisijaisena kuvituksena. Niitä voidaan käyttää vain poikkeustapauksessa, jos aitoa kuvaa ei ole ja kuva on selvästi symbolinen eikä esitä tapahtumaa dokumentaarisena.
+
 ## Kävijälaskuri
 
 Sivustolla on GoatCounter-pohjainen kävijälaskurituki.

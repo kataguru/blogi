@@ -58,6 +58,27 @@ Vältä:
 - yleistämistä ilman rajausta
 - liian pitkää teoreettista johdantoa
 
+## Tekstin rytmi ja viimeistely
+
+Uusissa blogiteksteissä vältä liian mekaanista yhden virkkeen kappalerakennetta. Yksittäisiä lyhyitä kappaleita saa käyttää painotukseen, mutta perusrytmin pitää olla esseemäisempi ja luonnollisempi.
+
+Suosi:
+
+- tiiviitä mutta kokonaisia kappaleita
+- täsmällisiä väliotsikoita
+- vaihtelevaa virkerytmiä
+- monipuolista mutta selkeää sanastoa
+- ydinlauseita, jotka nousevat tekstistä ilman iskulausemaisuutta
+
+Vältä:
+
+- liian monta peräkkäistä yhden rivin kappaletta
+- saman rakenteen toistamista
+- kuivaa listamaista etenemistä silloin, kun kyse on tarinasta
+- yliselittämistä kohdissa, joissa lukija ymmärtää jo mallin
+
+Tavoite on säilyttää empaattisen insinöörin selkeys, mutta tehdä tekstistä luettavampaa, virtaavampaa ja kielellisesti viimeistellympää.
+
 ## Julkaisu ja hyväksyntä
 
 Kaikki sivuston muutokset esiluetaan ennen päivitystä.
@@ -77,262 +98,4 @@ Hyväksyviä kuittauksia ovat esimerkiksi:
 hyväksytty
 toteuta
 julkaise
-```
-
-Ilman kuittausta älä tee commitia, PR:ää, mergeä, tiedostopäivitystä tai muuta sivustoa.
-
-## Uuden blogitekstin lisääminen
-
-Uudet blogitekstit tehdään kansioon `_posts/`.
-
-Tiedostonimi:
-
-```text
-YYYY-MM-DD-otsikko.md
-```
-
-Esimerkki:
-
-```text
-_posts/2026-06-27-saunan-lattia-ja-yhden-nelion-virhe.md
-```
-
-Front matter:
-
-```yaml
----
-title: "Otsikko"
-description: "Lyhyt kuvaus tekstistä."
-date: 2026-06-27 12:00:00 +0300
-categories: [arki, rakentaminen]
-image: /assets/images/kuvan-tiedostonimi.jpg
-image_alt: "Lyhyt kuvaus kuvasta"
----
-```
-
-Jos `date` puuttuu, Jekyll käyttää tiedostonimen päivämäärää. Ajankohtaisissa päivämerkinnöissä päivämäärä ja paikka voidaan lisätä myös tekstin alkuun:
-
-```html
-<p class="meta">27.6.2026 · Evijärvi</p>
-```
-
-Kuva määritellään `image`- ja `image_alt`-kentillä. Blogipohja sijoittaa kuvan automaattisesti otsikon alle.
-
-## Blogitekstien tyypit
-
-Blogitekstin tyyppi päätellään pääosin kategorioista.
-
-- `ai` → Artikkeli
-- `kirjoittaminen`, `blogi` tai `kirjat` → Kirjapäivitys
-- muut → Päivämerkintä
-
-Sopivia kategorioita:
-
-- `arki`
-- `rakentaminen`
-- `koirat`
-- `ai`
-- `yritykset`
-- `lokaalit-mallit`
-- `kirjoittaminen`
-- `blogi`
-- `kirjat`
-
-## Arkisto
-
-Arkistosivu on `arkisto.md`.
-
-Arkistossa on valintakytkin:
-
-- Aiheittain
-- Aikajärjestyksessä
-
-Molempia näkymiä ei näytetä yhtä aikaa.
-
-Aiheittainen jako perustuu kategorioihin:
-
-- AI ja teknologia: `ai`, `lokaalit-mallit`, `yritykset`
-- Arjen rakenteet: `arki`, `rakentaminen`, `koirat`
-- Kirjoittaminen ja kirjat: `kirjoittaminen`, `blogi`, `kirjat`
-
-Kun lisäät uuden blogitekstin, valitse kategoriat niin, että arkisto osaa sijoittaa sen oikeaan ryhmään.
-
-## Kirjasivun päivittäminen
-
-Kirjasivu `kirjat.md` ei sisällä kaikkia kirjakortteja käsin.
-
-Kirjatiedot ovat tiedostossa:
-
-```text
-_data/books.yml
-```
-
-`kirjat.md` lukee kirjat Liquid-loopilla:
-
-{% raw %}
-```liquid
-{% for book in site.data.books %}
-```
-{% endraw %}
-
-Uusi kirja lisätään ensisijaisesti tiedostoon `_data/books.yml`.
-
-Kirjan rakenne:
-
-```yaml
-- title: "Kirjan nimi"
-  status: "PDF-versio 2025"
-  availability: "PDF-versio tulossa ladattavaksi."
-  description:
-    - >
-      Ensimmäinen kuvauskappale.
-    - >
-      Toinen kuvauskappale.
-    - >
-      Kolmas kuvauskappale.
-```
-
-Pidä kuvaukset tiiviinä. Kirjasivu ei ole koko kirjan esipuhe, vaan lukijalle annettu orientaatio.
-
-Jos PDF julkaistaan myöhemmin repositoryyn, suositeltu polku on:
-
-```text
-assets/books/kirjan-tiedostonimi.pdf
-```
-
-Tämän jälkeen kirjatietoon voidaan lisätä esimerkiksi `pdf:`-kenttä ja muuttaa `kirjat.md` näyttämään latauslinkki.
-
-Älä yritä lisätä PDF- tai kuvatiedostoja GitHubin tekstipohjaisella `create_file`-toiminnolla, ellei käytössä ole varmasti binääritiedostolle sopiva työkalu. Tekstitiedostojen luonti sopii Markdown-, YAML-, HTML- ja CSS-tiedostoille.
-
-## Etusivu
-
-Etusivu on `index.md`.
-
-Etusivun tehtävä:
-
-- kertoa sivuston perusajatus
-- antaa sisääntuloreitti teeseihin, arkistoon ja kirjoihin
-- näyttää viimeisimmät kirjoitukset
-
-Etusivun nykyinen avauslause:
-
-```text
-Mikään ei ole rikki, ohjausjärjestelmän asetukset ovat vain säätämättä.
-```
-
-Älä muuta etusivun peruslinjaa kevyesti. Etusivu on sivuston käyttöliittymä, ei blogiteksti.
-
-## Ulkoasu
-
-Ulkoasu on tiedostossa:
-
-```text
-assets/css/style.css
-```
-
-Nykyinen korostusväri on sinertävä petrooli:
-
-```css
---accent: #2f6f95;
-```
-
-Sivusto on tarkoituksella kevyt, luettava ja rauhallinen. Älä lisää raskaita efektejä, animaatioita tai monimutkaista käyttöliittymää ilman erillistä pyyntöä.
-
-## Kuvien käyttö
-
-Kuvat sijaitsevat kansiossa:
-
-```text
-assets/images/
-```
-
-Etusivun nykyinen hero-kuva:
-
-```text
-assets/images/evijarvi-hero.png
-```
-
-Kuvien kanssa pitää varmistaa, että tiedosto on oikeasti repositoryssä eikä vain keskustelun tai työkalun paikallinen tiedosto.
-
-## Kuvitusperiaate
-
-Jokaiseen blogitekstiin pyritään lisäämään yksi aito kuva.
-
-Kuvan tehtävä ei ole koristella tekstiä, vaan antaa lukijalle tarttumapinta: paikka, esine, yksityiskohta, työvaihe, jälki, virhe, eläin, maisema tai hetki, johon tarina kiinnittyy.
-
-Ensisijainen kuva on oma valokuva. Se tekee tekstistä todemman ja sitoo järjestelmäajattelun arkeen.
-
-Perussääntö:
-
-**Yksi teksti, yksi aito kuva, yksi tarttumapinta.**
-
-Kuva lisätään blogitekstin front matteriin. Blogipohja sijoittaa kuvan automaattisesti otsikon alle.
-
-Esimerkki:
-
-```yaml
-image: /assets/images/saunan_lattia.jpg
-image_alt: "Saunan lattia"
-```
-
-Nykyisiä käytettäviä kuvia:
-
-- `assets/images/olivia_ja_kaapo.png`
-- `assets/images/saunan_lattia.jpg`
-
-AI-kuvia ei käytetä ensisijaisena kuvituksena. Niitä voidaan käyttää vain poikkeustapauksessa, jos aitoa kuvaa ei ole ja kuva on selvästi symbolinen eikä esitä tapahtumaa dokumentaarisena.
-
-## Kävijälaskuri
-
-Sivustolla on GoatCounter-pohjainen kävijälaskurituki.
-
-Tärkeät tiedostot:
-
-- `_config.yml` — asetus `goatcounter_code`
-- `_layouts/default.html` — GoatCounter-seuranta ja footerissa näkyvä kokonaislaskuri
-- `assets/css/style.css` — laskurin ulkoasu
-
-Nykyinen oletuskoodi:
-
-```yaml
-goatcounter_code: "kataguru"
-```
-
-Jos GoatCounter-sivuston koodi vaihtuu, muuta vain `_config.yml`-tiedoston `goatcounter_code`-arvo.
-
-Jos arvoksi asetetaan tyhjä merkkijono, laskuri ja seurantascripti eivät näy sivustolla:
-
-```yaml
-goatcounter_code: ""
-```
-
-GoatCounterin hallinnasta pitää sallia laskurin näyttäminen sivustolla. Asetuksen nimi on:
-
-```text
-Allow adding visitor counts on your website
-```
-
-Laskuri näyttää footerissa koko sivuston katselukerrat, ei yksittäisen sivun lukemaa.
-
-## Päivityksen tarkistuslista
-
-Ennen commitia tarkista:
-
-1. Onko muutos esiluettu käyttäjälle?
-2. Onko käyttäjä kuitannut muutoksen?
-3. Muuttuiko oikea tiedosto?
-4. Säilyikö nykyinen rakenne?
-5. Onko teksti linjassa `STYLE.md`-ohjeen kanssa?
-6. Onko uusi blogiteksti oikeassa kansiossa ja oikealla tiedostonimellä?
-7. Onko kirjalisäys tehty `_data/books.yml`-tiedostoon eikä käsin `kirjat.md`-sivulle?
-8. Onko YAML sisennyksiltään oikein?
-9. Onko linkkipolku suhteellinen ja Jekyll-yhteensopiva?
-10. Onko commit-viesti kuvaava?
-
-## Käytännön aloitus uudessa keskustelussa
-
-Kopioi tämä uuteen keskusteluun:
-
-```text
-Jatketaan sivustoa kataguru/blogi. Lue README.md, STYLE.md ja PAIVITYSOHJE.md. Päivitä sivustoa niiden mukaan. Kirjat ovat tiedostossa _data/books.yml. Uudet blogitekstit tulevat _posts-kansioon. Noudata ääntä: oma havainto → järjestelmämalli → lukijan peili. Esilue aina muutoksen sisältö tai tiivis diff keskustelussa ja odota kuittausta ennen commitia, PR:ää, mergeä tai muuta sivustopäivitystä.
 ```

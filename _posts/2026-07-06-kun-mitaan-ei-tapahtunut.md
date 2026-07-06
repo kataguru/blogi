@@ -1,7 +1,7 @@
 ---
 title: "Kun mitään ei tapahtunut"
 description: "Päivämerkintä huomaamattomasta sankaruudesta: siitä, miten paras työ näkyy usein siinä, ettei kriisiä koskaan synny."
-date: 2026-07-06 11:00:00 +0300
+date: 2026-07-06 06:00:00 +0300
 categories: [arki]
 ---
 

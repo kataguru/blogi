@@ -3,6 +3,7 @@ title: "Arvo, joka kasvaa ajan myötä"
 description: "Miksi etsin yhä edullisia löytöjä, mutta arvostan eniten asioita, joiden arvo kasvaa ajan myötä."
 date: 2026-07-15 06:00:00 +0300
 categories: [arki]
+image: /assets/images/vaellus.jpeg
 ---
 
 Vuosien varrella olen huomannut, että lähes kaikki tärkeimmät päätökseni palautuvat samaan kysymykseen:

@@ -5,6 +5,8 @@ date: 2026-07-11 06:00:00 +0300
 categories: [arki, koirat, parisuhde, ylläpito]
 image: /assets/images/rappuset.jpeg
 image_alt: "Matolla päällystetyt rappuset"
+lang: fi
+translation_key: 2026-07-11-rappuset-joita-en-nahnyt
 ---
 
 Kotona on ollut liukkaat rappuset yläkertaan. Mökillä sama ongelma toistui eri materiaalilla: kotona pinta oli maalattu, mökillä portaissa oli laminaatti. Molemmat näyttivät omasta mielestäni siisteiltä, ehjiltä ja riittävän toimivilta. Ei näkyvää vikaa, ei vaarallista narinaa, ei keskeneräisyyttä. Ne olivat vain rappuset.

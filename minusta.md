@@ -1,6 +1,8 @@
 ---
 title: Minusta
 permalink: /minusta/
+lang: fi
+translation_key: about
 ---
 
 # Minusta

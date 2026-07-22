@@ -3,14 +3,15 @@ layout: default
 ---
 <article class="post">
   <header class="post-header">
+    {% assign page_lang = page.lang | default: 'fi' %}
     {% assign post_type = page.type %}
     {% if post_type == nil or post_type == '' %}
       {% if page.categories contains 'ai' %}
-        {% assign post_type = 'Artikkeli' %}
+        {% if page_lang == 'en' %}{% assign post_type = 'Article' %}{% else %}{% assign post_type = 'Artikkeli' %}{% endif %}
       {% elsif page.categories contains 'kirjoittaminen' or page.categories contains 'blogi' %}
-        {% assign post_type = 'Kirjapäivitys' %}
+        {% if page_lang == 'en' %}{% assign post_type = 'Book update' %}{% else %}{% assign post_type = 'Kirjapäivitys' %}{% endif %}
       {% else %}
-        {% assign post_type = 'Päivämerkintä' %}
+        {% if page_lang == 'en' %}{% assign post_type = 'Journal entry' %}{% else %}{% assign post_type = 'Päivämerkintä' %}{% endif %}
       {% endif %}
     {% endif %}
 

@@ -1,6 +1,8 @@
 ---
 title: Etusivu
 description: Valikoitu päiväkirjamainen blogi, jossa oman elämän tapahtumia analysoidaan Ihmisen käyttöjärjestelmän teesien kautta.
+lang: fi
+translation_key: home
 ---
 
 # Ihmisen käyttöjärjestelmä
@@ -16,7 +18,8 @@ Täällä arjen tapahtumista etsitään toistuvia kaavoja.
 ## Viimeisimmät kirjoitukset
 
 <ul class="post-list">
-{% for post in site.posts limit:5 %}
+{% assign language_posts = site.posts | where: "lang", "fi" %}
+{% for post in language_posts limit:5 %}
   <li>
     <p class="post-date">{{ post.date | date: "%d.%m.%Y" }}{% if post.categories contains 'ai' %} · Artikkeli{% elsif post.categories contains 'kirjoittaminen' %} · Kirjapäivitys{% else %} · Päivämerkintä{% endif %}</p>
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>

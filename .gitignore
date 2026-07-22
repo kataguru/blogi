@@ -1,0 +1,5 @@
+scripts/.translation-cache.json
+__pycache__/
+*.pyc
+_site/
+.jekyll-cache/

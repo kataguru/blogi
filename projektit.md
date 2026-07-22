@@ -1,6 +1,8 @@
 ---
 title: Projektit
 permalink: /projektit/
+lang: fi
+translation_key: projects
 ---
 
 # Projektit

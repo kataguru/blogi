@@ -5,6 +5,8 @@ date: 2026-06-28 11:00:00 +0300
 categories: [arki, Evijärvi, ylläpito]
 image: /assets/images/rengas.jpg
 image_alt: "Ajettavan ruohonleikkurin rengas"
+lang: fi
+translation_key: 2026-06-28-ruohonleikkurin-rengas-ja-vaihdantasopimus
 ---
 
 <p class="meta">28.6.2026 · Evijärvi</p>

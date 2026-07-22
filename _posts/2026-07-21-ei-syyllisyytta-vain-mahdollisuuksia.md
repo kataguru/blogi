@@ -4,6 +4,8 @@ description: "Keskeneräisen projektin siirtäminen varastoon ei luo velvollisuu
 date: 2026-07-21 06:00:00 +0300
 categories: [arki]
 image: /assets/images/varasto.png
+lang: fi
+translation_key: 2026-07-21-ei-syyllisyytta-vain-mahdollisuuksia
 ---
 
 Tietokoneellani on paljon keskeneräisiä projekteja: kirjoja, ohjelmistoja, suunnitelmia, muistiinpanoja ja ajatuksia, jotka eivät koskaan valmistuneet alkuperäisessä muodossaan.

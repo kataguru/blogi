@@ -4,6 +4,8 @@ description: "Miksi moderni parisuhde voi kaatua jo ennen kuin kaksi ihmistä eh
 date: 2026-07-21 06:00:00 +0300
 categories: [arki]
 image: /assets/images/ai.png
+lang: fi
+translation_key: 2026-07-21-parisuhteen-asennusvirhe
 ---
 
 Nykyinen parisuhdemarkkina muistuttaa välillä huonosti suunniteltua mobiilisovellusta.

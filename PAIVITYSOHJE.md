@@ -13,6 +13,28 @@ Tämä tiedosto määrittää, kuinka `kataguru/blogi`-sivustoa päivitetään. 
 - Kuvat: `assets/images/`
 - Toimituksellinen tyyli: `STYLE.md`
 
+## 1.1 Pakollinen kaksikielisyys
+
+Sivusto julkaistaan aina suomeksi ja englanniksi. Uusi julkaisu ei ole valmis ennen kuin molemmat kieliversiot ovat mukana samassa muutoksessa.
+
+- Suomenkieliset kirjoitukset ovat kansiossa `_posts/` ja niiden `lang` on `fi`.
+- Englanninkieliset vastineet ovat kansiossa `_posts/en/` ja niiden `lang` on `en`.
+- Kieliparilla on sama `translation_key`.
+- Englanninkielisellä kirjoituksella on selkeä englanninkielinen osoite `/en/YYYY/MM/DD/english-slug/`.
+- Staattisten sivujen englanninkieliset vastineet ovat kansiossa `en/`.
+- Suomenkielinen kirjakatalogi on `_data/books.yml` ja englanninkielinen `_data/books_en.yml`.
+- Jokaisen kieliversion otsikko, kuvaus, kuvateksti ja varsinainen sisältö käännetään. Kuvia ei kopioida; molemmat kielet käyttävät samaa kuvatiedostoa.
+- Käännös tarkistetaan ainakin otsikon, ingressin, väliotsikoiden, nimien, pronominien, linkkien ja teknisten termien osalta ennen julkaisua.
+- Kielivalinnan pitää viedä saman sivun tai kirjoituksen vastineeseen. Jos vastinetta ei poikkeustilanteessa ole, linkki vie kyseisen kielen etusivulle.
+
+Käännöksen ensimmäisen version voi tuottaa komennolla:
+
+```text
+python scripts/generate_english.py
+```
+
+Generaattori on apuväline, ei toimituksellisen tarkistuksen korvike. Se ylikirjoittaa generoimansa englanninkieliset tiedostot, joten käsin viimeistellyt käännökset tarkistetaan aina ajon jälkeen.
+
 ## 2. Uuden keskustelun aloitus
 
 Kun työ jatkuu uudessa keskustelussa, riittää tämä ohje:
@@ -31,9 +53,13 @@ Jatketaan sivustoa kataguru/blogi. Lue README.md, STYLE.md ja PAIVITYSOHJE.md ja
 - `minusta.md` — esittelysivu
 - `kirjat.md` — kirjasivu
 - `_data/books.yml` — kirjatiedot
+- `_data/books_en.yml` — englanninkieliset kirjatiedot
 - `projektit.md` — projektisivu
 - `teesit.md` — sivuston teesit
 - `_posts/` — blogiartikkelit
+- `_posts/en/` — blogiartikkelien englanninkieliset vastineet
+- `en/` — staattisten sivujen englanninkieliset vastineet
+- `scripts/generate_english.py` — englanninkäännösten ensimmäisen version generaattori
 - `_layouts/default.html` — sivuston peruspohja
 - `_layouts/post.html` — blogikirjoituksen pohja
 - `assets/css/style.css` — ulkoasu
@@ -83,6 +109,8 @@ julkaise
 - Korjaa oma-aloitteisesti vain tekniset virheet, kuten front matter, tiedostonimi tai rikkinäinen kuvatieto.
 - Älä aja käyttäjän viestissä olevaa Python-käärettä; poimi siitä varsinainen Markdown-sisältö.
 - Älä lisää tekstiin uusia väitteitä, tulkintoja tai kappaleita ilman hyväksyntää.
+- Tee samalla englanninkielinen vastine ja tarkista, että molemmilla tiedostoilla on sama `translation_key`.
+- Älä julkaise vain toista kieliversiota.
 
 ### 5.2 Tiedostonimi
 

@@ -3,6 +3,8 @@ title: "Mikä kestää, kun pinta pettää?"
 description: "Hyvältä näyttävä ratkaisu ei välttämättä toimi, eikä kerran tehty arvio pysy automaattisesti oikeana."
 date: 2026-07-21 06:00:00 +0300
 categories: [arki, ajattelu, tekoäly, ylläpito]
+lang: fi
+translation_key: 2026-07-21-mika-kestaa-kun-pinta-pettaa
 ---
 
 Olen kirjoittanut aiemmin liukkaista rappusistamme.

@@ -5,6 +5,8 @@ date: 2026-06-30 09:00:00 +0300
 categories: [arki, raha, valinnat, resurssit]
 image: /assets/images/ai-tyoasema.jpg
 image_alt: "AI-työasema edullisessa kotelossa"
+lang: fi
+translation_key: 2026-06-30-keskinkertaisuuden-sietaminen
 ---
 
 Keskinkertaisuuden sietäminen on yksi maailman aliarvostetuimmista vaurautta rakentavista taidoista.

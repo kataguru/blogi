@@ -3,6 +3,7 @@ description: "Valikoitu päiväkirjamainen blogi, jossa oman elämän tapahtumia
 url: "https://kataguru.github.io"
 baseurl: "/blogi"
 lang: "fi"
+languages: [fi, en]
 timezone: "Europe/Helsinki"
 markdown: kramdown
 permalink: /:year/:month/:day/:title/

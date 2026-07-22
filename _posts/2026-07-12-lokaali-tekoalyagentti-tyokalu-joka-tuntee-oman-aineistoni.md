@@ -6,6 +6,8 @@ categories: [ai, teknologia, lokaalit-mallit, rag]
 type: Artikkeli
 image: /assets/images/ai.png
 image_alt: "Lokaali tekoälyagentti kotitoimiston työasemassa"
+lang: fi
+translation_key: 2026-07-12-lokaali-tekoalyagentti-tyokalu-joka-tuntee-oman-aineistoni
 ---
 
 Olen viime viikkoina rakentanut agentin, joka yhdistää monikielisen semanttisen haun, koodin rakenteellisen ymmärtämisen ja dokumenttienhallinnan. Ei pilvipalvelua, ei SaaS-tiliä. Omalla koneella pyörivä järjestelmä, joka tietää mitä olen kirjoittanut, missä tiedostossa mikäkin funktio on ja miten asiaan pääsee takaisin.

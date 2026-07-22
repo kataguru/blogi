@@ -5,6 +5,8 @@ date: 2026-06-27 11:10:00 +0300
 categories: [arki, rakentaminen, Evijärvi]
 image: /assets/images/saunan_lattia.jpg
 image_alt: "Saunan lattia"
+lang: fi
+translation_key: 2026-06-27-saunan-lattia-ja-yhden-nelion-virhe
 ---
 
 <p class="meta">27.6.2026 · Evijärvi</p>

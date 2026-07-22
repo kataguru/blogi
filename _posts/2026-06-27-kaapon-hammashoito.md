@@ -5,6 +5,8 @@ date: 2026-06-27 10:47:00 +0300
 categories: [arki, koirat, vastuu]
 image: /assets/images/olivia_ja_kaapo.png
 image_alt: "Olivia ja Kaapo"
+lang: fi
+translation_key: 2026-06-27-kaapon-hammashoito
 ---
 
 <p class="meta">27.6.2026 · Seinäjoki</p>

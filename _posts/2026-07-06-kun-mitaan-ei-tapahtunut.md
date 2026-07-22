@@ -3,6 +3,8 @@ title: "Kun mitään ei tapahtunut"
 description: "Päivämerkintä huomaamattomasta sankaruudesta: siitä, miten paras työ näkyy usein siinä, ettei kriisiä koskaan synny."
 date: 2026-07-06 06:00:00 +0300
 categories: [arki]
+lang: fi
+translation_key: 2026-07-06-kun-mitaan-ei-tapahtunut
 ---
 
 On olemassa sankaritarinoita, joissa ihminen ryntää keskelle kriisiä ja taistelee itsensä ulos.

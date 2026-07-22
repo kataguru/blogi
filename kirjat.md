@@ -1,6 +1,8 @@
 ---
 title: Kirjat
 permalink: /kirjat/
+lang: fi
+translation_key: books
 ---
 
 # Kirjat

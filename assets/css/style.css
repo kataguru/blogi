@@ -33,6 +33,13 @@ body {
   border-bottom: 1px solid var(--line);
 }
 
+.site-header-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
 .site-title {
   display: inline-block;
   margin-bottom: 12px;
@@ -47,6 +54,34 @@ body {
   flex-wrap: wrap;
   gap: 12px 18px;
   font-size: 15px;
+}
+
+.language-switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.language-switcher a,
+.language-current {
+  display: inline-block;
+  padding: 6px 9px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.language-current {
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 650;
+}
+
+@media (max-width: 560px) {
+  .site-header-top { display: block; }
+  .language-switcher { margin-bottom: 16px; }
 }
 
 .site-nav a,

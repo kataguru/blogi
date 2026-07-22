@@ -3,6 +3,8 @@ title: "Kierros, jonka sain keskeyttää"
 description: "Päiväkirjamerkintä Kyrkösjärven kierroksesta ja siitä, miten lupa lopettaa auttoi jatkamaan."
 date: 2026-07-13 06:00:00 +0300
 categories: [arki]
+lang: fi
+translation_key: 2026-07-13-kierros-jonka-sain-keskeyttaa
 ---
 
 En lähtenyt matkaan siksi, että olisin ollut varma jaksamisestani. Lähdin, koska olin järjestänyt itselleni luvan keskeyttää.

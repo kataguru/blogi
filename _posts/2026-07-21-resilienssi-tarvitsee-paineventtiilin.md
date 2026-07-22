@@ -4,6 +4,8 @@ description: "Ihminen ei vahvistu pelkästään kestämällä kuormitusta. Hän 
 date: 2026-07-21 06:00:00 +0300
 categories: [arki]
 image: /assets/images/paineventtiili.png
+lang: fi
+translation_key: 2026-07-21-resilienssi-tarvitsee-paineventtiilin
 ---
 
 Resilienssistä puhutaan usein kykynä kestää vaikeuksia ja palautua niistä.

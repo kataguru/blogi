@@ -2,6 +2,8 @@
 
 Henkilökohtainen GitHub Pages -blogi.
 
+Sivusto on kaksikielinen. Suomenkielinen sisältö julkaistaan juureen ja englanninkielinen sisältö `/en/`-polun alle. Jokaisella sivulla on Suomen ja Englannin lipuilla merkitty kielivalinta, joka vie saman sisällön toiseen kieliversioon.
+
 ## Rakenne
 
 - `index.md` — etusivu
@@ -9,11 +11,14 @@ Henkilökohtainen GitHub Pages -blogi.
 - `minusta.md` — esittelysivu
 - `kirjat.md` — kirjasivu
 - `_data/books.yml` — kirjatiedot
+- `_data/books_en.yml` — englanninkieliset kirjatiedot
 - `projektit.md` — projektisivu
 - `teesit.md` — sivuston teesit
 - `STYLE.md` — toimituksellinen tyyliohje
 - `PAIVITYSOHJE.md` — ohje sivuston jatkamiseen uudessa keskustelussa
 - `_posts/` — blogiartikkelit
+- `_posts/en/` — englanninkieliset blogiartikkelit
+- `en/` — englanninkieliset staattiset sivut
 - `_layouts/` — Jekyll-sivupohjat
 - `assets/css/style.css` — ulkoasu
 - `assets/images/` — kuvat
@@ -44,8 +49,12 @@ Artikkelin alkuun:
 title: "Otsikko"
 description: "Lyhyt kuvaus."
 categories: [aihe]
+lang: fi
+translation_key: YYYY-MM-DD-yhteinen-tunniste
 ---
 ```
+
+Samassa muutoksessa luodaan englanninkielinen tiedosto `_posts/en/`-kansioon. Sen `lang` on `en`, `translation_key` on sama kuin suomenkielisessä tiedostossa ja `permalink` alkaa `/en/`. Julkaisua ei tehdä vain yhdellä kielellä.
 
 ## Kirjat
 

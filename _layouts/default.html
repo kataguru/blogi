@@ -1,5 +1,22 @@
 <!doctype html>
-<html lang="fi">
+{% assign page_lang = page.lang | default: 'fi' %}
+{% assign alternate = nil %}
+{% if page.translation_key %}
+  {% if page.collection == 'posts' %}
+    {% for candidate in site.posts %}
+      {% if candidate.translation_key == page.translation_key and candidate.lang != page_lang %}
+        {% assign alternate = candidate %}
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    {% for candidate in site.pages %}
+      {% if candidate.translation_key == page.translation_key and candidate.lang != page_lang %}
+        {% assign alternate = candidate %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endif %}
+<html lang="{{ page_lang }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,22 +24,45 @@
   <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  {% if alternate %}<link rel="alternate" hreflang="{{ alternate.lang }}" href="{{ alternate.url | absolute_url }}">{% endif %}
+  <link rel="alternate" hreflang="{{ page_lang }}" href="{{ page.url | absolute_url }}">
 </head>
 <body>
   {% assign goatcounter_code = site.goatcounter_code | default: '' %}
 
   <header class="site-header">
-    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    <nav class="site-nav" aria-label="Päänavigaatio">
-      <a href="{{ '/' | relative_url }}">Etusivu</a>
-      <a href="{{ '/arkisto/' | relative_url }}">Arkisto</a>
-      <a href="{{ '/kirjat/' | relative_url }}">Kirjat</a>
-      <a href="{{ '/teesit/' | relative_url }}">Teesit</a>
-      <a href="{{ '/projektit/' | relative_url }}">Projektit</a>
-      <a href="{{ '/minusta/' | relative_url }}">Minusta</a>
+    <div class="site-header-top">
+      <a class="site-title" href="{% if page_lang == 'en' %}{{ '/en/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">{{ site.title }}</a>
+      <nav class="language-switcher" aria-label="{% if page_lang == 'en' %}Language selection{% else %}Kielivalinta{% endif %}">
+        {% if page_lang == 'fi' %}
+          <span class="language-current" aria-current="page">🇫🇮 Suomi</span>
+          <a lang="en" hreflang="en" href="{% if alternate %}{{ alternate.url | relative_url }}{% else %}{{ '/en/' | relative_url }}{% endif %}">🇬🇧 English</a>
+        {% else %}
+          <a lang="fi" hreflang="fi" href="{% if alternate %}{{ alternate.url | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">🇫🇮 Suomi</a>
+          <span class="language-current" aria-current="page">🇬🇧 English</span>
+        {% endif %}
+      </nav>
+    </div>
+
+    <nav class="site-nav" aria-label="{% if page_lang == 'en' %}Main navigation{% else %}Päänavigaatio{% endif %}">
+      {% if page_lang == 'en' %}
+        <a href="{{ '/en/' | relative_url }}">Home</a>
+        <a href="{{ '/en/archive/' | relative_url }}">Archive</a>
+        <a href="{{ '/en/books/' | relative_url }}">Books</a>
+        <a href="{{ '/en/theses/' | relative_url }}">Theses</a>
+        <a href="{{ '/en/projects/' | relative_url }}">Projects</a>
+        <a href="{{ '/en/about/' | relative_url }}">About</a>
+      {% else %}
+        <a href="{{ '/' | relative_url }}">Etusivu</a>
+        <a href="{{ '/arkisto/' | relative_url }}">Arkisto</a>
+        <a href="{{ '/kirjat/' | relative_url }}">Kirjat</a>
+        <a href="{{ '/teesit/' | relative_url }}">Teesit</a>
+        <a href="{{ '/projektit/' | relative_url }}">Projektit</a>
+        <a href="{{ '/minusta/' | relative_url }}">Minusta</a>
+      {% endif %}
     </nav>
     {% if goatcounter_code != '' %}
-    <p class="site-counter" id="site-counter">Katselut yhteensä: <span id="site-counter-count">latautuu…</span></p>
+    <p class="site-counter" id="site-counter">{% if page_lang == 'en' %}Total views{% else %}Katselut yhteensä{% endif %}: <span id="site-counter-count">{% if page_lang == 'en' %}loading…{% else %}latautuu…{% endif %}</span></p>
     {% endif %}
   </header>
 
@@ -31,7 +71,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>© {{ site.time | date: '%Y' }} Jari Katajisto. Rakennettu GitHub Pagesilla.</p>
+    <p>© {{ site.time | date: '%Y' }} Jari Katajisto. {% if page_lang == 'en' %}Built with GitHub Pages.{% else %}Rakennettu GitHub Pagesilla.{% endif %}</p>
   </footer>
 
   {% if goatcounter_code != '' %}
@@ -40,27 +80,11 @@
     (function () {
       var count = document.getElementById('site-counter-count');
       var code = '{{ goatcounter_code }}';
-
-      if (!count || !code || !window.fetch) {
-        return;
-      }
-
+      if (!count || !code || !window.fetch) return;
       fetch('https://' + code + '.goatcounter.com/counter/TOTAL.json')
-        .then(function (response) {
-          if (!response.ok) {
-            throw new Error('Visitor counter unavailable');
-          }
-          return response.json();
-        })
-        .then(function (data) {
-          if (!data || !data.count) {
-            return;
-          }
-          count.textContent = data.count;
-        })
-        .catch(function () {
-          count.textContent = 'ei vielä saatavilla';
-        });
+        .then(function (response) { if (!response.ok) throw new Error('Visitor counter unavailable'); return response.json(); })
+        .then(function (data) { if (data && data.count) count.textContent = data.count; })
+        .catch(function () { count.textContent = '{% if page_lang == "en" %}not available yet{% else %}ei vielä saatavilla{% endif %}'; });
     }());
   </script>
   {% endif %}

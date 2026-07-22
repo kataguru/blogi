@@ -2,6 +2,8 @@
 title: Teesit
 description: Ihmisen käyttöjärjestelmän teesien tiivistelmä.
 permalink: /teesit/
+lang: fi
+translation_key: theses
 ---
 
 # Ihmisen käyttöjärjestelmän teesit

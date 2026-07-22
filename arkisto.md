@@ -1,6 +1,8 @@
 ---
 title: Arkisto
 permalink: /arkisto/
+lang: fi
+translation_key: archive
 ---
 
 # Arkisto
@@ -22,7 +24,8 @@ Arkisto näyttää julkaistut tekstit joko aiheittain tai aikajärjestyksessä. 
     <h3>AI ja teknologia</h3>
 
     <ul class="post-list">
-    {% for post in site.posts %}
+    {% assign language_posts = site.posts | where: "lang", "fi" %}
+    {% for post in language_posts %}
       {% if post.categories contains 'ai' or post.categories contains 'lokaalit-mallit' or post.categories contains 'yritykset' %}
       <li>
         <p class="post-date">{{ post.date | date: "%d.%m.%Y" }} · Artikkeli</p>
@@ -36,7 +39,7 @@ Arkisto näyttää julkaistut tekstit joko aiheittain tai aikajärjestyksessä. 
     <h3>Arjen rakenteet</h3>
 
     <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in language_posts %}
       {% if post.categories contains 'arki' or post.categories contains 'rakentaminen' or post.categories contains 'koirat' %}
       <li>
         <p class="post-date">{{ post.date | date: "%d.%m.%Y" }} · Päivämerkintä</p>
@@ -50,7 +53,7 @@ Arkisto näyttää julkaistut tekstit joko aiheittain tai aikajärjestyksessä. 
     <h3>Kirjoittaminen ja kirjat</h3>
 
     <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in language_posts %}
       {% if post.categories contains 'kirjoittaminen' or post.categories contains 'blogi' or post.categories contains 'kirjat' %}
       <li>
         <p class="post-date">{{ post.date | date: "%d.%m.%Y" }} · Kirjapäivitys</p>
@@ -66,7 +69,7 @@ Arkisto näyttää julkaistut tekstit joko aiheittain tai aikajärjestyksessä. 
     <h2>Aikajärjestyksessä</h2>
 
     <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in language_posts %}
       <li>
         <p class="post-date">{{ post.date | date: "%d.%m.%Y" }}{% if post.categories contains 'ai' %} · Artikkeli{% elsif post.categories contains 'kirjoittaminen' or post.categories contains 'blogi' %} · Kirjapäivitys{% else %} · Päivämerkintä{% endif %}</p>
         <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>

@@ -2,6 +2,8 @@
 title: Teoria ja ohjeet
 permalink: /ohjeet/
 description: Lyhyt selitys Ihmisen käyttöjärjestelmästä ja siitä, miten sivuston tekstejä kannattaa lukea.
+lang: fi
+translation_key: instructions
 ---
 
 # Teoria ja ohjeet

@@ -16,6 +16,17 @@ Se tarkoittaa:
 
 Ääni ei ole kliininen asiantuntija, elämäntapavalmentaja, someguru tai motivaatiopuhuja.
 
+## Käännösten ääni
+
+Englanninkielinen versio säilyttää saman empaattisen insinöörin äänen. Käännös ei saa olla jäykkä sanasta sanaan -versio, jos luonteva englanti vaatii lauserakenteen muuttamista.
+
+- Säilytä minämuoto, henkilökohtainen rajaus ja tekstin rauhallinen rytmi.
+- Käännä merkitys, älä suomen kielen rakennetta.
+- Käytä johdonmukaisesti nimeä **Human Operating System** käsitteelle *Ihmisen käyttöjärjestelmä*.
+- Tarkista sukupuolittuneet pronominit, paikannimet, idiomit ja tekniset termit käsin.
+- Älä lisää englanninkieliseen versioon väitteitä, joita suomenkielisessä tekstissä ei ole.
+- Molemmat kieliversiot ovat samanarvoisia julkaisuja, eivät tiivistelmä ja alkuperäinen.
+
 ## Lähtökohta
 
 Kaikki havainnot lähtevät oman elämän analyysistä ja tulkinnasta.

@@ -4,6 +4,8 @@ description: "Miksi etsin yhä edullisia löytöjä, mutta arvostan eniten asioi
 date: 2026-07-15 06:00:00 +0300
 categories: [arki]
 image: /assets/images/vaellus.jpeg
+lang: fi
+translation_key: 2026-07-15-arvo-joka-kasvaa-ajan-myota
 ---
 
 Vuosien varrella olen huomannut, että lähes kaikki tärkeimmät päätökseni palautuvat samaan kysymykseen:

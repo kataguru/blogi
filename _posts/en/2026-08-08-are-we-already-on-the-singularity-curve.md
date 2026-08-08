@@ -6,7 +6,7 @@ categories: [artificial-intelligence]
 lang: en
 translation_key: 2026-08-08-olemmeko-jo-singulariteetin-nousukayralla
 permalink: /en/2026/08/08/are-we-already-on-the-singularity-curve/
-image: /assets/images/singulariteetin-nousukayralla.svg
+image: /assets/images/singulariteetin-nousukayralla.jpg
 image_alt: "A diagram in which local AI, memory, tools, web search and personal archives converge into a steeply rising singularity curve."
 ---
 

@@ -15,11 +15,14 @@ Tämä tiedosto määrittää, kuinka `kataguru/blogi`-sivustoa päivitetään. 
 
 ## 1.1 Pakollinen kaksikielisyys
 
-Sivusto julkaistaan aina suomeksi ja englanniksi. Uusi julkaisu ei ole valmis ennen kuin molemmat kieliversiot ovat mukana samassa muutoksessa.
+Sivusto julkaistaan aina suomeksi ja englanniksi. Uusi julkaisu ei ole valmis ennen kuin molemmat kieliversiot ovat mukana samassa julkaisutyönkulussa.
+
+Kun käyttäjä pyytää uuden kirjoituksen julkaisemista, englanninkielinen vastine tuotetaan ja julkaistaan automaattisesti. Erillistä pyyntöä englanninkielisestä versiosta ei tarvita.
 
 - Suomenkieliset kirjoitukset ovat kansiossa `_posts/` ja niiden `lang` on `fi`.
 - Englanninkieliset vastineet ovat kansiossa `_posts/en/` ja niiden `lang` on `en`.
 - Kieliparilla on sama `translation_key`.
+- Molemmilla kieliversioilla on sama julkaisupäivä ja kellonaika.
 - Englanninkielisellä kirjoituksella on selkeä englanninkielinen osoite `/en/YYYY/MM/DD/english-slug/`.
 - Staattisten sivujen englanninkieliset vastineet ovat kansiossa `en/`.
 - Suomenkielinen kirjakatalogi on `_data/books.yml` ja englanninkielinen `_data/books_en.yml`.
@@ -78,16 +81,17 @@ Kun käyttäjä pyytää arvioimaan, muokkaamaan tai viimeistelemään tekstiä:
 
 ### Julkaisupyyntö
 
-Kun käyttäjä sanoo `julkaise`, se on nimenomainen hyväksyntä julkaista valmis aineisto loppuun asti.
+Kun käyttäjä sanoo `julkaise`, se on nimenomainen hyväksyntä julkaista valmis aineisto loppuun asti molemmilla kielillä.
 
 Tällöin:
 
 1. tarkista tekninen rakenne
 2. tee vain välttämättömät tekniset korjaukset
-3. julkaise suoraan `main`-haaraan
-4. älä pyydä uutta vahvistusta
-5. tarkista repositoryyn tallennettu lopputulos
-6. ilmoita tiedostopolku, commit ja mahdollinen poikkeama
+3. tuota ja tarkista englanninkielinen vastine automaattisesti
+4. julkaise molemmat kieliversiot suoraan `main`-haaraan
+5. älä pyydä uutta vahvistusta
+6. tarkista repositoryyn tallennettu lopputulos molemmilla kielillä
+7. ilmoita tiedostopolut, commitit ja mahdollinen poikkeama
 
 Normaalista blogikirjoituksesta, kuvapäivityksestä tai pienestä sisältökorjauksesta ei tehdä branchia tai pull requestia, ellei käyttäjä pyydä sitä erikseen.
 
@@ -114,10 +118,16 @@ julkaise
 
 ### 5.2 Tiedostonimi
 
-Kirjoitus tallennetaan kansioon `_posts/` muodossa:
+Suomenkielinen kirjoitus tallennetaan kansioon `_posts/` muodossa:
 
 ```text
 YYYY-MM-DD-otsikon-slug.md
+```
+
+Englanninkielinen vastine tallennetaan kansioon `_posts/en/` muodossa:
+
+```text
+YYYY-MM-DD-english-slug.md
 ```
 
 Slugissa käytetään:
@@ -154,6 +164,7 @@ Säännöt:
 - Käytä Helsingin aikavyöhykkeen oikeaa UTC-poikkeamaa: talvella `+0200`, kesällä `+0300`.
 - Front matter alkaa ja päättyy täsmälleen rivillä `---`.
 - Tekstin alkuun ei lisätä erillistä Markdown-otsikkoa, koska sivupohja näyttää `title`-kentän.
+- Kieliparin `date`-arvot ovat identtiset.
 
 ## 6. Julkaisuaika
 
@@ -161,10 +172,14 @@ Säännöt:
 
 Tämä sääntö koskee myös tilannetta, jossa julkaisu tehdään myöhemmin saman päivän aikana.
 
-- Päivämäärä määräytyy käyttäjän antaman tai sovitun julkaisupäivän mukaan.
+- Jos käyttäjä antaa tai sopii tietyn julkaisupäivän, käytä sitä.
+- Jos käyttäjä sanoo vain `julkaise` eikä nimeä päivää, julkaisupäivä on julkaisuhetken kuluvan päivän päivämäärä aikavyöhykkeellä `Europe/Helsinki`.
+- Jos kello on jo yli 06:00, julkaisua **ei siirretä seuraavalle päivälle**. Päivä pysyy kuluvana päivänä ja kellonaika asetetaan silti `06:00:00`.
+- Huomista tai muuta tulevaa päivää ei valita ilman käyttäjän nimenomaista pyyntöä.
+- Suomen- ja englanninkielisellä versiolla on aina sama päivämäärä ja kellonaika.
 - Kellonaika asetetaan aina muotoon `06:00:00`.
 - Kesäajalla käytetään `+0300` ja talviajalla `+0200`.
-- Vanhaa kirjoitusta korjattaessa alkuperäistä päivämäärää ja aikaa ei muuteta.
+- Vanhaa kirjoitusta korjattaessa alkuperäistä päivämäärää ja aikaa ei muuteta, ellei korjauksen tarkoitus ole nimenomaan väärän julkaisupäivän korjaaminen.
 - Poikkeavaa kellonaikaa ei käytetä.
 
 Esimerkit:
@@ -256,7 +271,7 @@ Käyttäjän valmiiksi hyväksymää tekstiä ei kuitenkaan tyylitellä uudellee
 
 ## 10. Commit-käytäntö
 
-Yksi looginen muutos tehdään yhdellä selkeällä commitilla.
+Yksi looginen muutos tehdään yhdellä selkeällä commitilla aina kun käytettävä työkalu sen mahdollistaa.
 
 Esimerkkejä:
 
@@ -273,22 +288,31 @@ Commit-viestin tulee kertoa, mitä muutettiin. Geneerisiä viestejä kuten `upda
 
 Julkaisun jälkeen tarkistetaan vähintään:
 
-- tiedosto löytyy oikeasta `_posts/`-polusta
-- front matter on ehjä
-- otsikko, kuvaus, päivämäärä ja kategoriat ovat oikein
-- kellonaika on `06:00:00`
+- suomenkielinen tiedosto löytyy oikeasta `_posts/`-polusta
+- englanninkielinen vastine löytyy oikeasta `_posts/en/`-polusta
+- molempien front matter on ehjä
+- otsikot, kuvaukset, päivämäärät ja kategoriat ovat oikein
+- molempien kellonaika on `06:00:00`
+- molemmilla on sama päivämäärä ja `translation_key`
+- englanninkielisellä versiolla on toimiva `/en/.../`-permalink
 - UTC-poikkeama vastaa Suomen kesä- tai talviaikaa
 - kuvatiedosto löytyy täsmälleen ilmoitetusta polusta
-- koko kirjoituksen sisältö tallentui
-- commit onnistui
+- koko kirjoituksen sisältö tallentui molemmilla kielillä
+- commit tai commitit onnistuivat
 
-Kun julkinen sivu on muodostunut, julkaisun osoite noudattaa rakennetta:
+Kun julkinen sivu on muodostunut, suomenkielisen julkaisun osoite noudattaa rakennetta:
 
 ```text
 https://kataguru.github.io/blogi/YYYY/MM/DD/otsikon-slug/
 ```
 
-GitHub Pagesin päivittyminen voi tapahtua viiveellä. Repositoryyn tallennettu tiedosto tarkistetaan aina heti commitin jälkeen.
+Englanninkielisen vastineen osoite noudattaa rakennetta:
+
+```text
+https://kataguru.github.io/blogi/en/YYYY/MM/DD/english-slug/
+```
+
+GitHub Pagesin päivittyminen voi tapahtua viiveellä. Repositoryyn tallennetut tiedostot tarkistetaan aina heti commitin jälkeen.
 
 ## 12. Korjausten työnkulku
 
@@ -296,10 +320,11 @@ Kun jo julkaistua kirjoitusta korjataan:
 
 1. hae nykyinen tiedosto ja sen SHA
 2. tee koko tiedoston hallittu korvaus
-3. säilytä päivämäärä ja kellonaika
+3. säilytä päivämäärä ja kellonaika, ellei korjata nimenomaan väärää julkaisupäivää
 4. muuta vain pyydetty asia
-5. tee erillinen, kuvaava commit
-6. tarkista muutettu kohta repositoryssa
+5. päivitä tarvittaessa myös kieliparin vastine
+6. tee kuvaava commit
+7. tarkista muutettu kohta repositoryssa
 
 Samaan tiedostoon kohdistuvia peräkkäisiä päivityksiä ei tehdä rinnakkain, jotta SHA ei vanhene.
 
@@ -320,10 +345,14 @@ Muiden sivujen, CSS:n, layoutien tai asetusten muutokset esiluetaan ennen julkai
 Kun käyttäjä antaa valmiin kirjoituksen ja sanoo `julkaise`:
 
 1. poimi Markdown-sisältö
-2. tarkista otsikko, kuvaus, päivämäärä ja kategoria
-3. aseta kellonajaksi aina `06:00:00`
-4. muodosta oikea `_posts/YYYY-MM-DD-slug.md`-polku
-5. tarkista kuva repositoryssa
-6. julkaise suoraan `main`-haaraan
-7. hae tiedosto uudelleen ja varmista sisältö
-8. ilmoita tiedostopolku, commit ja mahdolliset poikkeamat
+2. lue `README.md`, `STYLE.md` ja `PAIVITYSOHJE.md`
+3. tarkista otsikko, kuvaus ja kategoria
+4. jos päivää ei ole annettu, käytä kuluvan päivän päivämäärää `Europe/Helsinki`-aikavyöhykkeellä; älä siirrä julkaisua huomiselle vaikka klo 06:00 olisi jo ohitettu
+5. aseta kellonajaksi aina `06:00:00`
+6. muodosta suomenkielinen `_posts/YYYY-MM-DD-slug.md`
+7. tuota toimituksellisesti tarkistettu englanninkielinen vastine automaattisesti ja muodosta `_posts/en/YYYY-MM-DD-english-slug.md`
+8. käytä molemmissa samaa päivämäärää, kellonaikaa ja `translation_key`-arvoa
+9. tarkista kuva repositoryssa ja käytä samaa kuvaa molemmissa kieliversioissa
+10. julkaise molemmat kieliversiot suoraan `main`-haaraan ilman erillistä englanninkielisen version pyyntöä
+11. hae molemmat tiedostot uudelleen ja varmista sisältö, front matter, permalink ja kieliparin linkitys
+12. ilmoita tiedostopolut, commitit ja mahdolliset poikkeamat

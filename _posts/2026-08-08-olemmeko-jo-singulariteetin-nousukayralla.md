@@ -5,7 +5,7 @@ date: 2026-08-08 06:00:00 +0300
 categories: [tekoäly]
 lang: fi
 translation_key: 2026-08-08-olemmeko-jo-singulariteetin-nousukayralla
-image: /assets/images/singulariteetin-nousukayralla.jpg
+image: /assets/images/singulariteetin-nousukayralla.png
 image_alt: "Kaavio, jossa paikallinen tekoäly, muisti, työkalut, verkkohaku ja omat arkistot yhdistyvät jyrkästi nousevaan singulariteettikäyrään."
 ---
 

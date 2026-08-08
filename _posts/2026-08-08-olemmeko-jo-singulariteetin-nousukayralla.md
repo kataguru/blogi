@@ -5,7 +5,7 @@ date: 2026-08-08 06:00:00 +0300
 categories: [tekoäly]
 lang: fi
 translation_key: 2026-08-08-olemmeko-jo-singulariteetin-nousukayralla
-image: /assets/images/singulariteetin-nousukayralla.svg
+image: /assets/images/singulariteetin-nousukayralla.jpg
 image_alt: "Kaavio, jossa paikallinen tekoäly, muisti, työkalut, verkkohaku ja omat arkistot yhdistyvät jyrkästi nousevaan singulariteettikäyrään."
 ---
 
@@ -63,7 +63,7 @@ Silloin järjestelmällä on kolme erilaista tietolähdettä: mallin oma tietäm
 
 Tätä kirjoittaessani odotan yhtä mallijulkaisua tavallista uteliaampana: Qwen3.8-27B. Jos odotukset pitävät, kyseessä voi olla selvästi nykyistä Qwen3.6-27B:tä vahvempi avoin malli samassa kokoluokassa.
 
-27 miljardia parametria on tärkeä numero. Se ei ole datakeskusmalli. Se on kuluttujaraudan malli, ja kvantisoituna sellainen pyörii tehokkaalla kotikoneella. Jos sen agenttikyvykkyys, luotettavuus ja hallusinaatioiden hallinta paranevat riittävästi, jotain olennaista siirtyy paikaltaan. Tähän asti frontier-tason tekoäly on käytännössä tarkoittanut ketjua pilvi → API → tokenilasku. Seuraava vaihe voi näyttää tältä:
+27 miljardia parametria on tärkeä numero. Se ei ole datakeskusmalli. Se on kuluttajaraudan malli, ja kvantisoituna sellainen pyörii tehokkaalla kotikoneella. Jos sen agenttikyvykkyys, luotettavuus ja hallusinaatioiden hallinta paranevat riittävästi, jotain olennaista siirtyy paikaltaan. Tähän asti frontier-tason tekoäly on käytännössä tarkoittanut ketjua pilvi → API → tokenilasku. Seuraava vaihe voi näyttää tältä:
 
 > avoin malli → oma GPU → oma harness → oma muisti → oma data
 

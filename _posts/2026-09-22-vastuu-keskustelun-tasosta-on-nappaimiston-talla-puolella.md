@@ -3,6 +3,8 @@ title: "Vastuu keskustelun tasosta on näppäimistön tällä puolella"
 description: "Kielimalli jatkaa sille annettua maailmaa. Käyttäjän tehtävä on asettaa älyllinen rima, purkaa vakuuttavuusteatteri ja tarkistaa seuraukset."
 date: 2026-09-22 06:00:00 +0300
 categories: [tekoäly]
+image: /assets/images/vastuu-keskustelun-tasosta.png
+image_alt: "Kädet näppäimistöllä ohjaavat kielimallin tuottaman sisällön joko harmaaksi jargoniksi tai jäsennellyksi ja tarkistettavaksi tiedoksi."
 lang: fi
 translation_key: 2026-09-22-vastuu-keskustelun-tasosta
 ---

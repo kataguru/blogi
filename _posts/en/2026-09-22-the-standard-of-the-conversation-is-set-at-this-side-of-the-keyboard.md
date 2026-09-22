@@ -3,6 +3,8 @@ title: "The Standard of the Conversation Is Set at This Side of the Keyboard"
 description: "A language model continues the world it is given. The user's job is to set the intellectual bar, dismantle confidence theatre, and verify the consequences."
 date: 2026-09-22 06:00:00 +0300
 categories: [artificial-intelligence]
+image: /assets/images/vastuu-keskustelun-tasosta.png
+image_alt: "Hands at a keyboard guide a language model toward either grey jargon or structured, verifiable information."
 lang: en
 translation_key: 2026-09-22-vastuu-keskustelun-tasosta
 permalink: /en/2026/09/22/the-standard-of-the-conversation-is-set-at-this-side-of-the-keyboard/
